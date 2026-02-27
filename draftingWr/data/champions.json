@@ -1,0 +1,2536 @@
+{
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "aatrox"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Aatrox.png"
+    },
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "burst",
+        "mobility",
+        "charm",
+        "poke",
+        "kite",
+        "assassin",
+        "ahri"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Mobile mage assassin with charm",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ahri.png"
+    },
+    {
+      "id": "akali",
+      "name": "Akali",
+      "roles": {
+        "mid": 1.0,
+        "top": 0.7
+      },
+      "kit_tags": [
+        "assassin",
+        "burst",
+        "mobility",
+        "stealth",
+        "melee",
+        "outplay",
+        "akali"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Stealth assassin with high outplay potential",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Akali.png"
+    },
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "roles": {
+        "mid": 1.0,
+        "adc": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "akshan"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Mid / ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Akshan.png"
+    },
+    {
+      "id": "alistar",
+      "name": "Alistar",
+      "roles": {
+        "support": 1.0,
+        "top": 0.3
+      },
+      "kit_tags": [
+        "engage",
+        "tank",
+        "knockup",
+        "cc",
+        "peel",
+        "dive",
+        "alistar"
+      ],
+      "damage_type": "AP",
+      "scaling": "early",
+      "description": "Tanky engage support with knockup combo",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Alistar.png"
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "ambessa"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ambessa.png"
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "roles": {
+        "jungle": 1.0,
+        "support": 0.3
+      },
+      "kit_tags": [
+        "tank",
+        "engage",
+        "AoE",
+        "cc",
+        "teamfight",
+        "amumu"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "jungle_stats": {
+        "clear": 8,
+        "sustain": 6,
+        "gank": 8,
+        "objective": 6
+      },
+      "description": "AoE tank with game-changing ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Amumu.png"
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "burst",
+        "AoE",
+        "cc",
+        "summon",
+        "easy",
+        "annie"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Burst mage with AoE stun",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Annie.png"
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "roles": {
+        "adc": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "ashe"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "ADC / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ashe.png"
+    },
+    {
+      "id": "aurelionSol",
+      "name": "Aurelion Sol",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "aurelionSol"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/AurelionSol.png"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "aurora"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Aurora.png"
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "bard"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Bard.png"
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "hook",
+        "engage",
+        "cc",
+        "displacement",
+        "tank",
+        "blitzcrank"
+      ],
+      "damage_type": "AP",
+      "scaling": "early",
+      "description": "Hook support with instant picks",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Blitzcrank.png"
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "brand"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Brand.png"
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "tank",
+        "peel",
+        "shield",
+        "cc",
+        "engage",
+        "wall",
+        "braum"
+      ],
+      "damage_type": "AP",
+      "scaling": "early",
+      "description": "Defensive tank support with wall",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Braum.png"
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "caitlyn"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Caitlyn.png"
+    },
+    {
+      "id": "camille",
+      "name": "Camille",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "duelist",
+        "mobility",
+        "true_damage",
+        "engage",
+        "melee",
+        "scaling",
+        "camille"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "description": "Mobile duelist with true damage and lockdown",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Camille.png"
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "roles": {
+        "mid": 1.0,
+        "adc": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "corki"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid / ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Corki.png"
+    },
+    {
+      "id": "darius",
+      "name": "Darius",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.4
+      },
+      "kit_tags": [
+        "bruiser",
+        "melee",
+        "sustain",
+        "execute",
+        "reset",
+        "early_game",
+        "darius"
+      ],
+      "damage_type": "AD",
+      "scaling": "early",
+      "description": "Bruiser with execute ultimate and resets",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Darius.png"
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "roles": {
+        "mid": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "diana"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Diana.png"
+    },
+    {
+      "id": "drMundo",
+      "name": "Dr. Mundo",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "drMundo"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/DrMundo.png"
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "burst",
+        "early_game",
+        "ranged",
+        "snowball",
+        "execute",
+        "draven"
+      ],
+      "damage_type": "AD",
+      "scaling": "early",
+      "description": "High-damage early game ADC with axes",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Draven.png"
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "roles": {
+        "mid": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "ekko"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ekko.png"
+    },
+    {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "evelynn"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Evelynn.png"
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "roles": {
+        "adc": 1.0,
+        "mid": 0.5
+      },
+      "kit_tags": [
+        "poke",
+        "mobility",
+        "ranged",
+        "kite",
+        "burst",
+        "safe",
+        "ezreal"
+      ],
+      "damage_type": "AD",
+      "scaling": "mid",
+      "description": "Mobile poke ADC with global ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ezreal.png"
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "fiddlesticks"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fiddlesticks.png"
+    },
+    {
+      "id": "fiora",
+      "name": "Fiora",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.3
+      },
+      "kit_tags": [
+        "duelist",
+        "melee",
+        "mobility",
+        "sustain",
+        "true_damage",
+        "scaling",
+        "fiora"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "description": "Duelist top laner with true damage",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fiora.png"
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "fizz"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fizz.png"
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "galio"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Galio.png"
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "garen"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Garen.png"
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "gnar"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gnar.png"
+    },
+    {
+      "id": "gragas",
+      "name": "Gragas",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "gragas"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gragas.png"
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "burst",
+        "ranged",
+        "mobility",
+        "tank",
+        "bully",
+        "graves"
+      ],
+      "damage_type": "AD",
+      "scaling": "early",
+      "jungle_stats": {
+        "clear": 10,
+        "sustain": 8,
+        "gank": 6,
+        "objective": 8
+      },
+      "description": "Tanky burst jungler with strong clear",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Graves.png"
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "gwen"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gwen.png"
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "hecarim"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Hecarim.png"
+    },
+    {
+      "id": "heimerdinger",
+      "name": "Heimerdinger",
+      "roles": {
+        "mid": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "heimerdinger"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Heimerdinger.png"
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "irelia"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Irelia.png"
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "peel",
+        "disengage",
+        "shield",
+        "cc",
+        "utility",
+        "kite",
+        "janna"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Disengage support with shields and knockups",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Janna.png"
+    },
+    {
+      "id": "jarvanIV",
+      "name": "Jarvan IV",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "jarvanIV"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/JarvanIV.png"
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "jax"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jax.png"
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "jayce"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Baron / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jayce.png"
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "jhin"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jhin.png"
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "hypercarry",
+        "ranged",
+        "AoE",
+        "reset",
+        "scaling",
+        "burst",
+        "jinx"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "description": "Hypercarry ADC with resets and global ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jinx.png"
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "kaisa"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kaisa.png"
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "kalista"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kalista.png"
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "karma"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Karma.png"
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "kassadin"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kassadin.png"
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "assassin",
+        "burst",
+        "AoE",
+        "reset",
+        "mobility",
+        "melee",
+        "katarina"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Reset assassin with AoE damage",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Katarina.png"
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "kayle"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kayle.png"
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "kayn"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kayn.png"
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "kennen"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kennen.png"
+    },
+    {
+      "id": "khazix",
+      "name": "Kha'Zix",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "khazix"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Khazix.png"
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "kindred"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kindred.png"
+    },
+    {
+      "id": "kogMaw",
+      "name": "Kog'Maw",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "kogMaw"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/KogMaw.png"
+    },
+    {
+      "id": "leeSin",
+      "name": "Lee Sin",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.4
+      },
+      "kit_tags": [
+        "mobility",
+        "engage",
+        "burst",
+        "early_game",
+        "melee",
+        "displacement",
+        "leeSin"
+      ],
+      "damage_type": "AD",
+      "scaling": "early",
+      "jungle_stats": {
+        "clear": 8,
+        "sustain": 7,
+        "gank": 10,
+        "objective": 7
+      },
+      "description": "Mobile early-game jungler with insec plays",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/LeeSin.png"
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "leona"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Leona.png"
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "lillia"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lillia.png"
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "lissandra"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lissandra.png"
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "lucian"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lucian.png"
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.3
+      },
+      "kit_tags": [
+        "peel",
+        "utility",
+        "shield",
+        "cc",
+        "polymorph",
+        "buff",
+        "lulu"
+      ],
+      "damage_type": "AP",
+      "scaling": "early",
+      "description": "Utility support with polymorph and buffs",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lulu.png"
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.8
+      },
+      "kit_tags": [
+        "poke",
+        "burst",
+        "cc",
+        "ranged",
+        "shield",
+        "AoE",
+        "lux"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Long-range mage with burst and CC",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lux.png"
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6,
+        "support": 0.4
+      },
+      "kit_tags": [
+        "engage",
+        "tank",
+        "AoE",
+        "knockup",
+        "armor_scaling",
+        "teamfight",
+        "malphite"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Tank with massive AoE engage ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Malphite.png"
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "roles": {
+        "jungle": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "maokai"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Maokai.png"
+    },
+    {
+      "id": "masterYi",
+      "name": "Master Yi",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "hypercarry",
+        "melee",
+        "reset",
+        "mobility",
+        "scaling",
+        "dps",
+        "masterYi"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "jungle_stats": {
+        "clear": 10,
+        "sustain": 9,
+        "gank": 5,
+        "objective": 9
+      },
+      "description": "Hypercarry melee jungler with resets",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MasterYi.png"
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "mel"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Mel.png"
+    },
+    {
+      "id": "milio",
+      "name": "Milio",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "milio"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Milio.png"
+    },
+    {
+      "id": "missFortune",
+      "name": "Miss Fortune",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "missFortune"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MissFortune.png"
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "mordekaiser"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Mordekaiser.png"
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "roles": {
+        "support": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "morgana"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Support / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Morgana.png"
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "sustain",
+        "cc",
+        "poke",
+        "heal",
+        "utility",
+        "engage",
+        "nami"
+      ],
+      "damage_type": "AP",
+      "scaling": "early",
+      "description": "Versatile support with heal and wave engage",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nami.png"
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "nasus"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nasus.png"
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "roles": {
+        "support": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "nautilus"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nautilus.png"
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "nidalee"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nidalee.png"
+    },
+    {
+      "id": "nilah",
+      "name": "Nilah",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "nilah"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nilah.png"
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "nocturne"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nocturne.png"
+    },
+    {
+      "id": "norra",
+      "name": "Norra",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "norra"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Norra.png"
+    },
+    {
+      "id": "nunu",
+      "name": "Nunu & Willump",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "nunu"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nunu.png"
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "olaf"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Olaf.png"
+    },
+    {
+      "id": "orianna",
+      "name": "Orianna",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "AoE",
+        "cc",
+        "burst",
+        "utility",
+        "shield",
+        "teamfight",
+        "orianna"
+      ],
+      "damage_type": "AP",
+      "scaling": "mid",
+      "description": "Ball-controlling mage with AoE ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Orianna.png"
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "ornn"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ornn.png"
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "pantheon"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Pantheon.png"
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "poppy"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Poppy.png"
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "pyke"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Pyke.png"
+    },
+    {
+      "id": "rakan",
+      "name": "Rakan",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "rakan"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rakan.png"
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "rammus"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rammus.png"
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "rell"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rell.png"
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "renekton"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Renekton.png"
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.5
+      },
+      "kit_tags": [
+        "assassin",
+        "burst",
+        "stealth",
+        "melee",
+        "mobility",
+        "bush",
+        "rengar"
+      ],
+      "damage_type": "AD",
+      "scaling": "mid",
+      "jungle_stats": {
+        "clear": 7,
+        "sustain": 8,
+        "gank": 9,
+        "objective": 6
+      },
+      "description": "Stealth assassin with burst from brush",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rengar.png"
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "riven"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Riven.png"
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "roles": {
+        "mid": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "rumble"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Mid / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rumble.png"
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "ryze"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ryze.png"
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "samira"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Samira.png"
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "roles": {
+        "support": 1.0,
+        "adc": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "senna"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Support / ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Senna.png"
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "seraphine"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Support / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Seraphine.png"
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "sett"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sett.png"
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "roles": {
+        "top": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "shen"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Shen.png"
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "shyvana"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Shyvana.png"
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "singed"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Singed.png"
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "sion"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sion.png"
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "sivir"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sivir.png"
+    },
+    {
+      "id": "smolder",
+      "name": "Smolder",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "smolder"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Smolder.png"
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "sustain",
+        "poke",
+        "utility",
+        "AoE",
+        "cc",
+        "heal",
+        "sona"
+      ],
+      "damage_type": "AP",
+      "scaling": "late",
+      "description": "Aura support with sustain and poke",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sona.png"
+    },
+    {
+      "id": "soraka",
+      "name": "Soraka",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "sustain",
+        "heal",
+        "poke",
+        "ranged",
+        "peel",
+        "utility",
+        "soraka"
+      ],
+      "damage_type": "AP",
+      "scaling": "late",
+      "description": "Healing support with global ultimate",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Soraka.png"
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "swain"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Swain.png"
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "syndra"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Syndra.png"
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "roles": {
+        "jungle": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "talon"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Talon.png"
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "roles": {
+        "top": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "ranged",
+        "mage",
+        "marksman",
+        "annoying",
+        "teemo"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Baron / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Teemo.png"
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "hook",
+        "peel",
+        "engage",
+        "cc",
+        "utility",
+        "lantern",
+        "thresh"
+      ],
+      "damage_type": "mixed",
+      "scaling": "early",
+      "description": "High-skill playmaker support with hook and lantern",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Thresh.png"
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "tristana"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Tristana.png"
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "roles": {
+        "top": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "tryndamere"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Tryndamere.png"
+    },
+    {
+      "id": "twistedFate",
+      "name": "Twisted Fate",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "twistedFate"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/TwistedFate.png"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "roles": {
+        "adc": 1.0,
+        "jungle": 0.6
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "twitch"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC / Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Twitch.png"
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "roles": {
+        "top": 1.0
+      },
+      "kit_tags": [
+        "melee",
+        "solo",
+        "bruiser",
+        "urgot"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Urgot.png"
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "varus"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Varus.png"
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "roles": {
+        "adc": 1.0,
+        "top": 0.4
+      },
+      "kit_tags": [
+        "hypercarry",
+        "ranged",
+        "true_damage",
+        "mobility",
+        "scaling",
+        "duelist",
+        "vayne"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "description": "Tank-shredding hypercarry with true damage",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vayne.png"
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "veigar"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Veigar.png"
+    },
+    {
+      "id": "velkoz",
+      "name": "Vel'Koz",
+      "roles": {
+        "mid": 1.0,
+        "support": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "velkoz"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid / Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Velkoz.png"
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "vex"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vex.png"
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "vi"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vi.png"
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "viego"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Viego.png"
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "viktor"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Viktor.png"
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "roles": {
+        "mid": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "vladimir"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vladimir.png"
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "roles": {
+        "jungle": 1.0,
+        "top": 0.6
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "volibear"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle / Baron champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Volibear.png"
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "warwick"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Warwick.png"
+    },
+    {
+      "id": "monkeyKing",
+      "name": "Wukong",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "monkeyKing"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MonkeyKing.png"
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "xayah"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Xayah.png"
+    },
+    {
+      "id": "xinZhao",
+      "name": "Xin Zhao",
+      "roles": {
+        "jungle": 1.0
+      },
+      "kit_tags": [
+        "farm",
+        "mobility",
+        "gank",
+        "jungle",
+        "xinZhao"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Jungle champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/XinZhao.png"
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "roles": {
+        "mid": 1.0,
+        "top": 0.7,
+        "adc": 0.3
+      },
+      "kit_tags": [
+        "burst",
+        "mobility",
+        "melee",
+        "windwall",
+        "knockup",
+        "scaling",
+        "yasuo"
+      ],
+      "damage_type": "AD",
+      "scaling": "late",
+      "skill_order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "description": "Mobile melee carry with windwall and knockup combos",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yasuo.png"
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "yone"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yone.png"
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "roles": {
+        "support": 1.0
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "yuumi"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Support champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yuumi.png"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "roles": {
+        "mid": 1.0,
+        "jungle": 0.5
+      },
+      "kit_tags": [
+        "burst",
+        "assassin",
+        "mobility",
+        "melee",
+        "outplay",
+        "shadow",
+        "zed"
+      ],
+      "damage_type": "AD",
+      "scaling": "early",
+      "description": "Shadow assassin with high outplay potential",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zed.png"
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "roles": {
+        "adc": 1.0
+      },
+      "kit_tags": [
+        "ranged",
+        "physical",
+        "dps",
+        "carry",
+        "zeri"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "ADC champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zeri.png"
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "ziggs"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "mid",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ziggs.png"
+    },
+    {
+      "id": "zilean",
+      "name": "Zilean",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "zilean"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "late",
+      "description": "Support / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zilean.png"
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "roles": {
+        "mid": 1.0
+      },
+      "kit_tags": [
+        "mage",
+        "roam",
+        "burst",
+        "zoe"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zoe.png"
+    },
+    {
+      "id": "zyra",
+      "name": "Zyra",
+      "roles": {
+        "support": 1.0,
+        "mid": 0.6
+      },
+      "kit_tags": [
+        "cc",
+        "protect",
+        "utility",
+        "zyra"
+      ],
+      "damage_type": "Adaptive",
+      "scaling": "early",
+      "description": "Support / Mid champion",
+      "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zyra.png"
+    }
+  ]
+}

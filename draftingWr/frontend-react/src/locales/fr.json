@@ -1,0 +1,51 @@
+{
+    "app": {
+        "title": "Salade Drafters",
+        "loading": "Chargement de l'outil...",
+        "reset": "Réinitialiser",
+        "search_placeholder": "Rechercher un champion...",
+        "ally_strength": "FORCE ALLIÉE",
+        "enemy_strength": "FORCE ENNEMIE",
+        "vs": "VS",
+        "selection_for": "Sélection pour {{side}} - {{role}}",
+        "ally": "ALLIÉ",
+        "enemy": "ENNEMI",
+        "ally_side": "ALLIÉ",
+        "enemy_side": "ENNEMI",
+        "explanation_enemy": "Affiche les champions qui synergisent avec l'équipe ennemie et contrent vos alliés",
+        "placeholder_select": "Sélectionnez un emplacement pour voir les recommandations",
+        "recommendations_title": "Recommandations pour {{side}} <1>{{role}}</1>"
+    },
+    "champion": {
+        "tier": "Tier",
+        "profile": "PROFIL DU CHAMPION",
+        "analysis": "ANALYSE DU DRAFT",
+        "type": "Type",
+        "scaling": "Scaling",
+        "overall_rating": "PERTINENCE GLOBALE",
+        "synergies": "Synergies",
+        "counters": "Counters",
+        "risks": "Risques",
+        "none": "Aucun",
+        "no_synergy": "Pas de synergie majeure détectée."
+    },
+    "badges": {
+        "early": "Début de Partie",
+        "late": "Fin de Partie",
+        "flex": "Polyvalent",
+        "balance": "Équilibre",
+        "risk": "Risque"
+    },
+    "scaling": {
+        "early": "Début",
+        "late": "Fin",
+        "mid": "Moyen"
+    },
+    "roles": {
+        "TOP": "TOP",
+        "JUNGLE": "JUNGLE",
+        "MID": "MID",
+        "ADC": "ADC",
+        "SUPPORT": "SUPPORT"
+    }
+}

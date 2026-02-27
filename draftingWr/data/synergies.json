@@ -1,0 +1,427 @@
+{
+    "synergies": [
+        {
+            "name": "Super Xayah (Xayah + Rakan)",
+            "tags": [
+                "xayah",
+                "rakan"
+            ],
+            "score": 1.0,
+            "explanation": "Les amoureux ont des synergies uniques : rappel synchronisé, portée accrue du Z de Rakan, rendant leur duo redoutable."
+        },
+        {
+            "name": "Double Invisibilité (Twitch + Yuumi)",
+            "tags": [
+                "twitch",
+                "yuumi"
+            ],
+            "score": 0.95,
+            "explanation": "Yuumi reste invisible sur Twitch camouflé, permettant des assassinats surprises dévastateurs."
+        },
+        {
+            "name": "Bombary (Zeri + Yuumi)",
+            "tags": [
+                "zeri",
+                "yuumi"
+            ],
+            "score": 0.9,
+            "explanation": "La vitesse de déplacement de Yuumi s'ajoute à celle de Zeri, créant une cible impossible à attraper et mortelle."
+        },
+        {
+            "name": "Tir Étourdi (Lucian + Braum)",
+            "tags": [
+                "lucian",
+                "braum"
+            ],
+            "score": 0.95,
+            "explanation": "Le passif double tir de Lucian applique instantanément les charges de l'étourdissement de Braum pour un CC ultra-rapide."
+        },
+        {
+            "name": "Réinitialisation de Knockup (Samira + Nautilus)",
+            "tags": [
+                "samira",
+                "nautilus"
+            ],
+            "score": 0.95,
+            "explanation": "Le passif de Samira prolonge les nombreux contrôles de Nautilus, créant une chaîne de CC infinie."
+        },
+        {
+            "name": "Zone de Mort (Miss Fortune + Leona)",
+            "tags": [
+                "missFortune",
+                "leona"
+            ],
+            "score": 0.9,
+            "explanation": "Leona maintient les cibles immobiles sous l'ultime de Miss Fortune pour des dégâts maximaux."
+        },
+        {
+            "name": "Sauvetage Express (Kalista + Thresh)",
+            "tags": [
+                "kalista",
+                "thresh"
+            ],
+            "score": 0.85,
+            "explanation": "Kalista peut sauver Thresh après un grappin risqué, et Thresh peut sauver Kalista avec sa lanterne."
+        },
+        {
+            "name": "Sniper CC (Caitlyn + Lux)",
+            "tags": [
+                "caitlyn",
+                "lux"
+            ],
+            "score": 0.9,
+            "explanation": "Une cage touchée par Lux garantit l'activation d'un piège de Caitlyn, suivi d'un laser et d'un tir à la tête pour un one-shot."
+        },
+        {
+            "name": "Combo Airborne (Yasuo + Alistar)",
+            "tags": [
+                "yasuo",
+                "alistar"
+            ],
+            "score": 0.95,
+            "explanation": "Le combo W-Q d'Alistar offre la projection la plus fiable pour déclencher l'ultime de Yasuo en botlane."
+        },
+        {
+            "name": "Malédiction du Tir en Rafale (Miss Fortune + Amumu)",
+            "tags": [
+                "missFortune",
+                "amumu"
+            ],
+            "score": 0.92,
+            "explanation": "L'ultime d'Amumu immobilise toute l'équipe adverse, garantissant que l'ultime de Miss Fortune touche sa cible complète."
+        },
+        {
+            "name": "Encaissement Express (Draven + Thresh)",
+            "tags": [
+                "draven",
+                "thresh"
+            ],
+            "score": 0.9,
+            "explanation": "Le kit de Thresh (Grappin/Coup/Faucheur/Lanterne) offre à Draven la sécurité et les opportunités de kills nécessaires pour encaisser son passif."
+        },
+        {
+            "name": "Empilement de Plasma (Kai'Sa + Leona)",
+            "tags": [
+                "kaisa",
+                "leona"
+            ],
+            "score": 0.9,
+            "explanation": "Le passif de Leona et ses CC appliquent des stacks de Plasma pour Kai'Sa, permettant de déclencher ses dégâts de rupture instantanément."
+        },
+        {
+            "name": "Combo Polaire (Ashe + Braum)",
+            "tags": [
+                "ashe",
+                "braum"
+            ],
+            "score": 0.88,
+            "explanation": "Leurs passifs se complètent parfaitement : Ashe ralentit pour faciliter les coups de Braum, et Braum étourdit pour qu'Ashe finisse le travail."
+        },
+        {
+            "name": "Plongée Immortelle (Kai'Sa + Alistar)",
+            "tags": [
+                "kaisa",
+                "alistar"
+            ],
+            "score": 0.85,
+            "explanation": "Alistar plonge sous les tours sans prendre de dégâts grâce à son ultime, permettant à Kai'Sa de suivre avec son propre ultime pour assassiner."
+        },
+        {
+            "name": "Vitesse Supersonique (Jhin + Nami)",
+            "tags": [
+                "jhin",
+                "nami"
+            ],
+            "score": 0.82,
+            "explanation": "Les buffs de vitesse de Nami s'additionnent aux critiques de Jhin, le transformant en une voiture de course intouchable."
+        },
+        {
+            "name": "Poke Infini (Varus + Karma)",
+            "tags": [
+                "varus",
+                "karma"
+            ],
+            "score": 0.85,
+            "explanation": "Leur double poke longue distance rend la phase de lane insupportable pour l'ennemi, les forçant à back constamment."
+        },
+        {
+            "name": "Protection Royale (Kog'Maw + Lulu)",
+            "tags": [
+                "kogMaw",
+                "lulu"
+            ],
+            "score": 0.98,
+            "explanation": "Lulu fournit tout ce dont Kog'Maw a besoin : vitesse d'attaque, bouclier et protection contre les assassins."
+        },
+        {
+            "name": "Catapulte (Kalista + Galio)",
+            "tags": [
+                "kalista",
+                "galio"
+            ],
+            "score": 0.85,
+            "explanation": "L'ultime de Kalista lance Galio au cœur du combat, lui permettant de placer une provocation de zone instantanée."
+        },
+        {
+            "name": "Régénération Amplifiée (Nilah + Soraka)",
+            "tags": [
+                "nilah",
+                "soraka"
+            ],
+            "score": 0.9,
+            "explanation": "Le passif de Nilah amplifie les soins reçus, rendant les soins de Soraka capables de la maintenir en vie contre tout burst."
+        },
+        {
+            "name": "Ralentissement Permanent Freljord (Ashe + Braum)",
+            "tags": [
+                "ashe",
+                "braum"
+            ],
+            "score": 0.85,
+            "explanation": "Les ralentissements d'Ashe facilitent l'approche de Braum pour appliquer son passif et protéger l'ADC."
+        },
+        {
+            "name": "Harcèlement et Siège (Ezreal + Karma)",
+            "tags": [
+                "ezreal",
+                "karma"
+            ],
+            "score": 0.88,
+            "explanation": "Duo intouchable capable de harceler sous tour avec une double menace de poke (Q d'Ezreal + R-Q de Karma)."
+        },
+        {
+            "name": "Immobilisation Longue Distance (Jhin + Zyra)",
+            "tags": [
+                "jhin",
+                "zyra"
+            ],
+            "score": 0.83,
+            "explanation": "Les plantes de Zyra activent la marque de Jhin, lui permettant d'immobiliser l'ennemi de très loin pour un enchaînement."
+        },
+        {
+            "name": "La Ville des Resets (Jinx + Thresh)",
+            "tags": [
+                "jinx",
+                "thresh"
+            ],
+            "score": 0.85,
+            "explanation": "Thresh sécurise un pick avec son grappin, permettant à Jinx d'activer 'Get Excited!' et de nettoyer le reste du combat."
+        },
+        {
+            "name": "Double Invisibilité (Twitch + Yuumi)",
+            "tags": [
+                "twitch",
+                "yuumi"
+            ],
+            "score": 0.92,
+            "explanation": "Yuumi reste invisible sur Twitch, créant un sous-marin nucléaire prêt à apparaître et éliminer toute l'équipe."
+        },
+        {
+            "name": "Combo de la Mort (Samira + Rell)",
+            "tags": [
+                "samira",
+                "rell"
+            ],
+            "score": 0.94,
+            "explanation": "L'ultime de Rell regroupe tous les ennemis en un point, offrant à Samira l'ultime le plus satisfaisant et dévastateur possible."
+        },
+        {
+            "name": "Zone d'Interdiction (Caitlyn + Morgana)",
+            "tags": [
+                "caitlyn",
+                "morgana"
+            ],
+            "score": 0.88,
+            "explanation": "Une cage de Morgana = un piège de Caitlyn assuré. Le bouclier noir protège Caitlyn pendant qu'elle assiège."
+        },
+        {
+            "name": "Dégâts Bruts Rapides (Vayne + Lulu)",
+            "tags": [
+                "vayne",
+                "lulu"
+            ],
+            "score": 0.9,
+            "explanation": "Lulu transforme Vayne en mitraillette intouchable, compensant sa courte portée par des boucliers et de la vitesse."
+        },
+        {
+            "name": "Double Global (Ashe + Senna)",
+            "tags": [
+                "ashe",
+                "senna"
+            ],
+            "score": 0.8,
+            "explanation": "Deux ultimes globaux pour impacter la carte entière, et une phase de lane oppressive avec beaucoup de portée."
+        },
+        {
+            "name": "Poke de Glace (Ezreal + Braum)",
+            "tags": [
+                "ezreal",
+                "braum"
+            ],
+            "score": 0.85,
+            "explanation": "Le Q d'Ezreal applique les effets à l'impact, il peut donc déclencher le stun de Braum à distance."
+        },
+        {
+            "name": "Racines Profondes (Varus + Maokai)",
+            "tags": [
+                "varus",
+                "maokai"
+            ],
+            "score": 0.82,
+            "explanation": "Maokai immobilise la cible, garantissant que l'ultime de Varus touche et propage la corruption."
+        },
+        {
+            "name": "Bombardement (Tristana + Leona)",
+            "tags": [
+                "tristana",
+                "leona"
+            ],
+            "score": 0.87,
+            "explanation": "Leona engage, Tristana saute in. Un combo all-in explosif qui ne laisse aucune chance de fuite."
+        },
+        {
+            "name": "Zone de Contrôle (Varus + Mel)",
+            "tags": [
+                "varus",
+                "mel"
+            ],
+            "score": 0.85,
+            "explanation": "L'ultime de Varus immobilise les cibles, permettant à Mel de placer ses sorts de zone dévastateurs sans qu'ils puissent esquiver."
+        },
+        {
+            "name": "Engagement Accéléré (Sivir + Karma)",
+            "tags": [
+                "sivir",
+                "karma"
+            ],
+            "score": 0.82,
+            "explanation": "Double accélération de groupe (R de Sivir + E de Karma) pour transformer toute l'équipe en TGV de l'engagement."
+        },
+        {
+            "name": "Duo des Ombres (Senna + Swain)",
+            "tags": [
+                "senna",
+                "swain"
+            ],
+            "score": 0.8,
+            "explanation": "Un duo 'fasting Senna' très résistant qui harcèle sans fin et se soigne mutuellement."
+        },
+        {
+            "name": "Poke Aérien (Corki + Yuumi)",
+            "tags": [
+                "corki",
+                "yuumi"
+            ],
+            "score": 0.8,
+            "explanation": "Yuumi augmente les dégâts hybrides de Corki, rendant son poke de missiles R extrêmement douloureux."
+        },
+        {
+            "name": "Stacks Sécurisés (Smolder + Milio)",
+            "tags": [
+                "smolder",
+                "milio"
+            ],
+            "score": 0.85,
+            "explanation": "Milio augmente la portée de Smolder pour l'aider à accumuler son passif en sécurité et désengage si l'ennemi approche."
+        },
+        {
+            "name": "Engagement + Dégâts de Zone",
+            "tags": [
+                "engage",
+                "AoE"
+            ],
+            "score": 0.9,
+            "explanation": "Un engagement agressif permet aux sources de dégâts de zone de toucher toute l'équipe ennemie."
+        },
+        {
+            "name": "Knockup + Yasuo",
+            "tags": [
+                "knockup",
+                "yasuo"
+            ],
+            "score": 1.0,
+            "explanation": "Les knockups activent l'ultime de Yasuo pour des dégâts massifs."
+        },
+        {
+            "name": "Protection + Hyper Carry",
+            "tags": [
+                "peel",
+                "hypercarry"
+            ],
+            "score": 0.95,
+            "explanation": "Protéger les champions cumulatifs garantit qu'ils pourront porter l'équipe en fin de partie."
+        },
+        {
+            "name": "Grappin + Burst",
+            "tags": [
+                "hook",
+                "burst"
+            ],
+            "score": 0.85,
+            "explanation": "Les grappins créent des picks pour que les champions à burst puissent éliminer les cibles."
+        },
+        {
+            "name": "Tank + Plongée",
+            "tags": [
+                "tank",
+                "dive"
+            ],
+            "score": 0.8,
+            "explanation": "Les tanks servent de front pour que les compositions de plongée puissent atteindre l'arrière-garde."
+        },
+        {
+            "name": "Chaîne de CC",
+            "tags": [
+                "cc",
+                "cc"
+            ],
+            "score": 0.85,
+            "explanation": "Plusieurs sources de CC permettent de longues chaînes de contrôle."
+        },
+        {
+            "name": "Synergie de Reset",
+            "tags": [
+                "reset",
+                "AoE"
+            ],
+            "score": 0.8,
+            "explanation": "Les dégâts de zone créent des multi-kills permettant aux champions à resets de prendre l'avantage dans les combats."
+        },
+        {
+            "name": "Bouclier + Harcèlement",
+            "tags": [
+                "shield",
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": "Les boucliers permettent des schémas de harcèlement sûrs en lane et en teamfights."
+        },
+        {
+            "name": "Mobilité + Engagement",
+            "tags": [
+                "mobility",
+                "engage"
+            ],
+            "score": 0.7,
+            "explanation": "Les équipes mobiles peuvent préparer et suivre les engagements efficacement."
+        },
+        {
+            "name": "Sauvetage par Lanterne",
+            "tags": [
+                "lantern",
+                "engage"
+            ],
+            "score": 0.9,
+            "explanation": "La lanterne de Thresh permet un engagement/désengagement sécurisé pour l'équipe."
+        },
+        {
+            "name": "Gank Précoce + Cumulatif",
+            "tags": [
+                "early_game",
+                "scaling"
+            ],
+            "score": 0.75,
+            "explanation": "La pression en début de partie donne du temps aux champions cumulatifs pour devenir efficaces."
+        }
+    ]
+}

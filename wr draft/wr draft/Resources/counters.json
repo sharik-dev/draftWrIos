@@ -1,0 +1,300 @@
+{
+    "counters": [
+        {
+            "name": "Mobilité contre Compétence directionnelle",
+            "attacker_tags": [
+                "mobility"
+            ],
+            "defender_tags": [
+                "skillshot",
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Une mobilité élevée facilite l'esquive des compétences directionnelles",
+                "en": "Une mobilité élevée facilite l'esquive des compétences directionnelles"
+            }
+        },
+        {
+            "name": "Mur de vent contre Projectile",
+            "attacker_tags": [
+                "windwall"
+            ],
+            "defender_tags": [
+                "ranged",
+                "poke"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "Le mur de vent de Yasuo annule le harcèlement et les capacités à distance",
+                "en": "Le mur de vent de Yasuo annule le harcèlement et les capacités à distance"
+            }
+        },
+        {
+            "name": "Grappin contre Immobile",
+            "attacker_tags": [
+                "hook"
+            ],
+            "defender_tags": [
+                "immobile",
+                "hypercarry"
+            ],
+            "score": 0.85,
+            "explanation": {
+                "fr": "Les carries immobiles sont des cibles faciles pour les grappins",
+                "en": "Les carries immobiles sont des cibles faciles pour les grappins"
+            }
+        },
+        {
+            "name": "Burst contre Peu Résistant",
+            "attacker_tags": [
+                "burst",
+                "assassin"
+            ],
+            "defender_tags": [
+                "squishy"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les dégâts en burst éliminent instantanément les cibles peu résistantes",
+                "en": "Les dégâts en burst éliminent instantanément les cibles peu résistantes"
+            }
+        },
+        {
+            "name": "Tank contre Burst",
+            "attacker_tags": [
+                "tank"
+            ],
+            "defender_tags": [
+                "burst"
+            ],
+            "score": 0.65,
+            "explanation": {
+                "fr": "Les tanks absorbent les dégâts en burst et survivent aux tentatives d'assassinat",
+                "en": "Les tanks absorbent les dégâts en burst et survivent aux tentatives d'assassinat"
+            }
+        },
+        {
+            "name": "Régénération contre Harcèlement",
+            "attacker_tags": [
+                "sustain",
+                "heal"
+            ],
+            "defender_tags": [
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "La régénération annule les dégâts de harcèlement sur la durée",
+                "en": "La régénération annule les dégâts de harcèlement sur la durée"
+            }
+        },
+        {
+            "name": "Dégâts Réels contre Tank",
+            "attacker_tags": [
+                "true_damage"
+            ],
+            "defender_tags": [
+                "tank",
+                "armor_scaling"
+            ],
+            "score": 0.9,
+            "explanation": {
+                "fr": "Les dégâts réels contournent les résistances des tanks",
+                "en": "Les dégâts réels contournent les résistances des tanks"
+            }
+        },
+        {
+            "name": "Protection contre Plongée",
+            "attacker_tags": [
+                "peel",
+                "disengage"
+            ],
+            "defender_tags": [
+                "dive",
+                "assassin"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "La protection protège les carries des menaces de plongée/d'assassin",
+                "en": "La protection protège les carries des menaces de plongée/d'assassin"
+            }
+        },
+        {
+            "name": "Désengagement contre Engagement",
+            "attacker_tags": [
+                "disengage"
+            ],
+            "defender_tags": [
+                "engage"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les outils de désengagement contrent les compositions à fort engagement",
+                "en": "Les outils de désengagement contrent les compositions à fort engagement"
+            }
+        },
+        {
+            "name": "Début de Partie contre Fin de Partie",
+            "attacker_tags": [
+                "early_game"
+            ],
+            "defender_tags": [
+                "scaling",
+                "late"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "La pression en début de partie empêche les champions cumulatifs d'atteindre leur pic de puissance",
+                "en": "La pression en début de partie empêche les champions cumulatifs d'atteindre leur pic de puissance"
+            }
+        },
+        {
+            "name": "CC contre Canalisation",
+            "attacker_tags": [
+                "cc"
+            ],
+            "defender_tags": [
+                "channel"
+            ],
+            "score": 0.9,
+            "explanation": {
+                "fr": "Le CC interrompt les capacités canalisées",
+                "en": "Le CC interrompt les capacités canalisées"
+            }
+        },
+        {
+            "name": "Métamorphose contre AA",
+            "attacker_tags": [
+                "polymorph"
+            ],
+            "defender_tags": [
+                "auto_attack",
+                "hypercarry"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "La métamorphose désactive les champions basés sur les auto-attaques",
+                "en": "La métamorphose désactive les champions basés sur les auto-attaques"
+            }
+        },
+        {
+            "name": "Bouclier/Mur contre Harcèlement",
+            "attacker_tags": [
+                "shield",
+                "wall"
+            ],
+            "defender_tags": [
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Les boucliers et les murs bloquent les dégâts de harcèlement",
+                "en": "Les boucliers et les murs bloquent les dégâts de harcèlement"
+            }
+        },
+        {
+            "name": "Détection de Camouflage",
+            "attacker_tags": [
+                "reveal"
+            ],
+            "defender_tags": [
+                "stealth"
+            ],
+            "score": 0.85,
+            "explanation": {
+                "fr": "La détection de camouflage contrecarre les champions basés sur la furtivité",
+                "en": "La détection de camouflage contrecarre les champions basés sur la furtivité"
+            }
+        },
+        {
+            "name": "Déplacement contre Positionnement",
+            "attacker_tags": [
+                "displacement"
+            ],
+            "defender_tags": [
+                "positioning"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les déplacements ruinent les champions dépendants du positionnement",
+                "en": "Les déplacements ruinent les champions dépendants du positionnement"
+            }
+        },
+        {
+            "name": "Exécution contre PV Bas",
+            "attacker_tags": [
+                "execute"
+            ],
+            "defender_tags": [
+                "sustain"
+            ],
+            "score": 0.6,
+            "explanation": {
+                "fr": "Les exécutions achèvent les cibles avant que la régénération ne les sauve",
+                "en": "Les exécutions achèvent les cibles avant que la régénération ne les sauve"
+            }
+        },
+        {
+            "name": "Anti-Soin contre Régénération",
+            "attacker_tags": [
+                "grievous"
+            ],
+            "defender_tags": [
+                "sustain",
+                "heal"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "Les blessures graves réduisent l'efficacité des soins",
+                "en": "Les blessures graves réduisent l'efficacité des soins"
+            }
+        },
+        {
+            "name": "Kitage contre Mêlée",
+            "attacker_tags": [
+                "kite",
+                "ranged"
+            ],
+            "defender_tags": [
+                "melee",
+                "immobile"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Le kitage à distance maintient les champions de mêlée à distance",
+                "en": "Le kitage à distance maintient les champions de mêlée à distance"
+            }
+        },
+        {
+            "name": "Fermeture de Distance contre Immobile",
+            "attacker_tags": [
+                "mobility",
+                "dash"
+            ],
+            "defender_tags": [
+                "immobile"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les fermetures de distance collent aux champions immobiles",
+                "en": "Les fermetures de distance collent aux champions immobiles"
+            }
+        },
+        {
+            "name": "Zone contre Groupé",
+            "attacker_tags": [
+                "AoE"
+            ],
+            "defender_tags": [
+                "engage",
+                "grouped"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Les dégâts de zone punissent les compositions d'équipe groupées",
+                "en": "Les dégâts de zone punissent les compositions d'équipe groupées"
+            }
+        }
+    ]
+}

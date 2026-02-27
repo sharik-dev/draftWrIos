@@ -1,0 +1,1149 @@
+{
+  "champion_meta": {
+    "aatrox": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "ahri": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "akali": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.8
+    },
+    "akshan": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "adc"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "alistar": {
+      "power_spike": "early",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.8,
+      "late_scaling": 0.5
+    },
+    "ambessa": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "amumu": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "support"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.8
+    },
+    "annie": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "ashe": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc",
+        "support"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "aurelionSol": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "aurora": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "bard": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "blitzcrank": {
+      "power_spike": "early",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.9,
+      "late_scaling": 0.5
+    },
+    "brand": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "braum": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "caitlyn": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "camille": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "corki": {
+      "power_spike": "late",
+      "flex_roles": [
+        "mid",
+        "adc"
+      ],
+      "early_impact": 0.3,
+      "late_scaling": 0.8
+    },
+    "darius": {
+      "power_spike": "early",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.9,
+      "late_scaling": 0.5
+    },
+    "diana": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "drMundo": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.9
+    },
+    "draven": {
+      "power_spike": "early",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.9,
+      "late_scaling": 0.6
+    },
+    "ekko": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "evelynn": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.8
+    },
+    "ezreal": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "fiddlesticks": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "fiora": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.9
+    },
+    "fizz": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "galio": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "garen": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "gnar": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "gragas": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "top",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "graves": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.75,
+      "late_scaling": 0.7
+    },
+    "gwen": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.9
+    },
+    "hecarim": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "heimerdinger": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "irelia": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "janna": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "jarvanIV": {
+      "power_spike": "early",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.8,
+      "late_scaling": 0.6
+    },
+    "jax": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.9
+    },
+    "jayce": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "jhin": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "jinx": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.95
+    },
+    "kaisa": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.85
+    },
+    "kalista": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "karma": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "kassadin": {
+      "power_spike": "late",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.3,
+      "late_scaling": 0.95
+    },
+    "katarina": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "kayle": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.2,
+      "late_scaling": 0.95
+    },
+    "kayn": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "kennen": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "khazix": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.75,
+      "late_scaling": 0.7
+    },
+    "kindred": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "kogMaw": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.3,
+      "late_scaling": 0.9
+    },
+    "leeSin": {
+      "power_spike": "early",
+      "flex_roles": [
+        "jungle",
+        "top"
+      ],
+      "early_impact": 0.95,
+      "late_scaling": 0.5
+    },
+    "leona": {
+      "power_spike": "early",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.85,
+      "late_scaling": 0.6
+    },
+    "lillia": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "lissandra": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "lucian": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "lulu": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.85
+    },
+    "lux": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "malphite": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.8
+    },
+    "maokai": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "masterYi": {
+      "power_spike": "late",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.9
+    },
+    "mel": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "milio": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "missFortune": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "monkeyKing": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "mordekaiser": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "morgana": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "jungle",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "nami": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "nasus": {
+      "power_spike": "late",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.3,
+      "late_scaling": 0.95
+    },
+    "nautilus": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "jungle"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "nidalee": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "nilah": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "nocturne": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "norra": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "nunu": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "olaf": {
+      "power_spike": "early",
+      "flex_roles": [
+        "jungle",
+        "top"
+      ],
+      "early_impact": 0.85,
+      "late_scaling": 0.4
+    },
+    "orianna": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "ornn": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "pantheon": {
+      "power_spike": "early",
+      "flex_roles": [
+        "top",
+        "jungle",
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.9,
+      "late_scaling": 0.4
+    },
+    "poppy": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "pyke": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "rakan": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "rammus": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "rell": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "renekton": {
+      "power_spike": "early",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.85,
+      "late_scaling": 0.5
+    },
+    "rengar": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "top"
+      ],
+      "early_impact": 0.75,
+      "late_scaling": 0.7
+    },
+    "riven": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.8
+    },
+    "rumble": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "ryze": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "samira": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "senna": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc",
+        "support"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.9
+    },
+    "seraphine": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "sett": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "support",
+        "jungle"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "shen": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "shyvana": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "singed": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "sion": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "sivir": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "smolder": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "sona": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "soraka": {
+      "power_spike": "late",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.85
+    },
+    "swain": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "syndra": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "talon": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "teemo": {
+      "power_spike": "early",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.8,
+      "late_scaling": 0.4
+    },
+    "thresh": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.8
+    },
+    "tristana": {
+      "power_spike": "early",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.8,
+      "late_scaling": 0.7
+    },
+    "tryndamere": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top",
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "twistedFate": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "twitch": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc",
+        "jungle"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "urgot": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "varus": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "vayne": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc",
+        "top"
+      ],
+      "early_impact": 0.3,
+      "late_scaling": 0.95
+    },
+    "veigar": {
+      "power_spike": "late",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.9
+    },
+    "velkoz": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "vex": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "vi": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "viego": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "viktor": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "vladimir": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "volibear": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle",
+        "top"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "warwick": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "xayah": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.8
+    },
+    "xinZhao": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "jungle"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.6
+    },
+    "yasuo": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.9
+    },
+    "yone": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid",
+        "top"
+      ],
+      "early_impact": 0.5,
+      "late_scaling": 0.85
+    },
+    "yuumi": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "zed": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.7
+    },
+    "zeri": {
+      "power_spike": "late",
+      "flex_roles": [
+        "adc"
+      ],
+      "early_impact": 0.4,
+      "late_scaling": 0.85
+    },
+    "ziggs": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "zilean": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    },
+    "zoe": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "mid"
+      ],
+      "early_impact": 0.6,
+      "late_scaling": 0.7
+    },
+    "zyra": {
+      "power_spike": "mid",
+      "flex_roles": [
+        "support",
+        "mid"
+      ],
+      "early_impact": 0.7,
+      "late_scaling": 0.6
+    }
+  }
+}

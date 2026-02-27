@@ -1,0 +1,136 @@
+Aatrox|Baron / Jungle
+Ahri|Mid
+Akali|Mid / Baron
+Akshan|Mid / ADC
+Alistar|Support
+Ambessa|Baron / Jungle
+Amumu|Jungle / Support
+Annie|Mid
+Ashe|ADC / Support
+Aurelion Sol|Mid
+Aurora|Mid
+Bard|Support
+Blitzcrank|Support
+Brand|Support / Mid
+Braum|Support
+Caitlyn|ADC
+Camille|Baron / Jungle
+Corki|Mid / ADC
+Darius|Baron
+Diana|Mid / Jungle
+Dr. Mundo|Baron / Jungle
+Draven|ADC
+Ekko|Mid / Jungle
+Evelynn|Jungle
+Ezreal|ADC
+Fiddlesticks|Jungle
+Fiora|Baron
+Fizz|Mid
+Galio|Mid / Support
+Garen|Baron
+Gnar|Baron
+Gragas|Jungle / Baron
+Graves|Jungle
+Gwen|Baron / Jungle
+Hecarim|Jungle
+Heimerdinger|Mid / Baron
+Irelia|Baron / Mid
+Janna|Support
+Jarvan IV|Jungle
+Jax|Baron / Jungle
+Jayce|Baron / Mid
+Jhin|ADC
+Jinx|ADC
+Kai'Sa|ADC
+Kalista|ADC
+Karma|Support / Mid
+Kassadin|Mid
+Katarina|Mid
+Kayle|Baron / Mid
+Kayn|Jungle
+Kennen|Baron / Mid
+Kha'Zix|Jungle
+Kindred|Jungle
+Kog'Maw|ADC
+Lee Sin|Jungle
+Leona|Support
+Lillia|Jungle
+Lissandra|Mid
+Lucian|ADC
+Lulu|Support
+Lux|Support / Mid
+Malphite|Baron / Support
+Maokai|Jungle / Support
+Master Yi|Jungle
+Mel|Mid
+Milio|Support
+Miss Fortune|ADC
+Mordekaiser|Baron
+Morgana|Support / Jungle
+Nami|Support
+Nasus|Baron
+Nautilus|Support / Jungle
+Nidalee|Jungle
+Nilah|ADC
+Nocturne|Jungle
+Norra|Mid / Support
+Nunu & Willump|Jungle
+Olaf|Jungle / Baron
+Orianna|Mid
+Ornn|Baron
+Pantheon|Jungle / Baron
+Poppy|Baron / Jungle
+Pyke|Support
+Rakan|Support
+Rammus|Jungle
+Rell|Support
+Renekton|Baron
+Rengar|Jungle
+Riven|Baron
+Rumble|Mid / Baron
+Ryze|Mid
+Samira|ADC
+Senna|Support / ADC
+Seraphine|Support / Mid
+Sett|Baron
+Shen|Baron / Support
+Shyvana|Jungle
+Singed|Baron
+Sion|Baron
+Sivir|ADC
+Smolder|ADC
+Sona|Support
+Soraka|Support
+Swain|Mid / Support
+Syndra|Mid
+Talon|Jungle / Mid
+Teemo|Baron / Mid
+Thresh|Support
+Tristana|ADC
+Tryndamere|Baron / Jungle
+Twisted Fate|Mid
+Twitch|ADC / Jungle
+Urgot|Baron
+Varus|ADC
+Vayne|ADC
+Veigar|Mid
+Vel'Koz|Mid / Support
+Vex|Mid
+Vi|Jungle
+Viego|Jungle
+Viktor|Mid
+Vladimir|Mid / Baron
+Volibear|Jungle / Baron
+Warwick|Jungle
+Wukong|Jungle
+Xayah|ADC
+Xin Zhao|Jungle
+Yasuo|Mid
+Yone|Mid
+Yuumi|Support
+Zed|Mid
+Zeri|ADC
+Ziggs|Mid
+Zilean|Support / Mid
+Zoe|Mid
+Zyra|Support / Mid

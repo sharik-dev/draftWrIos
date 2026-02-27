@@ -1,0 +1,51 @@
+{
+    "app": {
+        "title": "Salade Drafters",
+        "loading": "Loading Drafting Tool...",
+        "reset": "Reset Draft",
+        "search_placeholder": "Search champion...",
+        "ally_strength": "ALLY STRENGTH",
+        "enemy_strength": "ENEMY STRENGTH",
+        "vs": "VS",
+        "selection_for": "Selecting for {{side}} - {{role}}",
+        "ally": "ALLY",
+        "enemy": "ENEMY",
+        "ally_side": "ALLY",
+        "enemy_side": "ENEMY",
+        "explanation_enemy": "Showing champions that synergize with enemy team and counter your allies",
+        "placeholder_select": "Select a slot to see recommendations",
+        "recommendations_title": "Recommendations for {{side}} <1>{{role}}</1>"
+    },
+    "champion": {
+        "tier": "Tier",
+        "profile": "CHAMPION PROFILE",
+        "analysis": "DRAFT ANALYSIS",
+        "type": "Type",
+        "scaling": "Scaling",
+        "overall_rating": "OVERALL RATING",
+        "synergies": "Synergies",
+        "counters": "Counters",
+        "risks": "Risks",
+        "none": "None",
+        "no_synergy": "No major synergy detected."
+    },
+    "badges": {
+        "early": "Early Game",
+        "late": "Hyperscale",
+        "flex": "Flex Pick",
+        "balance": "Balances Team",
+        "risk": "Risk"
+    },
+    "scaling": {
+        "early": "Early",
+        "late": "Late",
+        "mid": "Mid"
+    },
+    "roles": {
+        "TOP": "TOP",
+        "JUNGLE": "JUNGLE",
+        "MID": "MID",
+        "ADC": "ADC",
+        "SUPPORT": "SUPPORT"
+    }
+}
