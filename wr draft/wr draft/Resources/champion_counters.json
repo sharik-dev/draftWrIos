@@ -1,433 +1,571 @@
-[
-    {
-        "champion": "fiora",
-        "counters": [
-            {
-                "target": "aatrox",
-                "strength": 0.8,
-                "reason": {
-                    "fr": "La riposte (E) de Fiora peut bloquer les points faibles du Q et le knock-up du W d'Aatrox, annulant son combo.",
-                    "en": "La riposte (E) de Fiora peut bloquer les points faibles du Q et le knock-up du W d'Aatrox, annulant son combo."
-                }
+{
+    "counters": [
+        {
+            "name_fr": "Mobilité contre Compétence directionnelle",
+            "name_en": "Mobility vs Skillshots",
+            "attacker_tags": [
+                "mobility"
+            ],
+            "defender_tags": [
+                "skillshot",
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Une mobilité élevée facilite l'esquive des compétences directionnelles.",
+                "en": "High mobility allows for easily dodging key skillshots and pokes."
             },
-            {
-                "target": "darius",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Fiora peut parier l'exécution ultime (R) de Darius et le vaincre en duel grâce à ses dégâts réels.",
-                    "en": "Fiora peut parier l'exécution ultime (R) de Darius et le vaincre en duel grâce à ses dégâts réels."
+            "strong_against": {
+                "champions": [
+                    "Lux",
+                    "Xerath",
+                    "Ziggs",
+                    "Jayce"
+                ],
+                "explanation": {
+                    "fr": "Les champions à grande mobilité comme Zed, Ahri ou Yasuo esquivent facilement les sorts des mages à compétences directionnelles.",
+                    "en": "High mobility champions like Zed, Ahri, or Yasuo easily dodge the skillshots of immobile mages."
                 }
+            }
+        },
+        {
+            "name_fr": "Mur de vent contre Projectile",
+            "name_en": "Windwall vs Projectile",
+            "attacker_tags": [
+                "windwall"
+            ],
+            "defender_tags": [
+                "ranged",
+                "poke"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "Le mur de vent de Yasuo annule le harcèlement et les capacités à distance.",
+                "en": "Yasuo's windwall negates harass and ranged abilities."
             },
-            {
-                "target": "garen",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "Les points vitaux de Fiora infligent des dégâts réels, contournant l'armure de Garen, et elle peut riposter à son ultime.",
-                    "en": "Les points vitaux de Fiora infligent des dégâts réels, contournant l'armure de Garen, et elle peut riposter à son ultime."
+            "strong_against": {
+                "champions": [
+                    "Lucian",
+                    "Jhin",
+                    "Ezreal",
+                    "Caitlyn",
+                    "Senna"
+                ],
+                "explanation": {
+                    "fr": "Yasuo (le seul champion avec un mur de vent) est un counter redoutable en botlane contre les ADCs dont les dégâts dépendent des projectiles.",
+                    "en": "Yasuo (the only champion with a windwall) is a formidable counter in the botlane against ADCs whose damage relies on projectiles."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "yasuo",
-        "counters": [
-            {
-                "target": "malphite",
-                "strength": 0.9,
-                "reason": {
-                    "fr": "Le mur de vent de Yasuo bloque le harcèlement du Q de Malphite, et son ultime peut suivre celui de Malphite pour infliger d'énormes dégâts en zone.",
-                    "en": "Le mur de vent de Yasuo bloque le harcèlement du Q de Malphite, et son ultime peut suivre celui de Malphite pour infliger d'énormes dégâts en zone."
-                }
+        },
+        {
+            "name_fr": "Grappin contre Immobile",
+            "name_en": "Hook vs Immobile",
+            "attacker_tags": [
+                "hook"
+            ],
+            "defender_tags": [
+                "immobile",
+                "hypercarry"
+            ],
+            "score": 0.85,
+            "explanation": {
+                "fr": "Les carries immobiles sont des cibles faciles pour les grappins.",
+                "en": "Immobile carries are easy targets for hooks."
             },
-            {
-                "target": "braum",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Yasuo peut se faufiler à travers les sbires pour éviter le Q de Braum, et son ultime se combine au knock-up de l'ultime de Braum.",
-                    "en": "Yasuo peut se faufiler à travers les sbires pour éviter le Q de Braum, et son ultime se combine au knock-up de l'ultime de Braum."
+            "strong_against": {
+                "champions": [
+                    "Jinx",
+                    "Kog'Maw",
+                    "Seraphine",
+                    "Ashe",
+                    "Miss Fortune"
+                ],
+                "explanation": {
+                    "fr": "Les supports à grappin (Blitzcrank, Nautilus, Thresh, Pyke) excellent contre les ADC sans dash, surtout en début de partie.",
+                    "en": "Hook supports (Blitzcrank, Nautilus, Thresh, Pyke) excel against ADCs without a dash, especially in the early game."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "vayne",
-        "counters": [
-            {
-                "target": "malphite",
-                "strength": 0.85,
-                "reason": {
-                    "fr": "Les dégâts réels du W de Vayne déchirent les tanks comme Malphite, et sa mobilité l'aide à esquiver son ultime.",
-                    "en": "Les dégâts réels du W de Vayne déchirent les tanks comme Malphite, et sa mobilité l'aide à esquiver son ultime."
-                }
+        },
+        {
+            "name_fr": "Burst contre Peu Résistant",
+            "name_en": "Burst vs Squishies",
+            "attacker_tags": [
+                "burst",
+                "assassin"
+            ],
+            "defender_tags": [
+                "squishy"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les dégâts en burst éliminent instantanément les cibles peu résistantes.",
+                "en": "Burst damage instantly eliminates squishy targets."
             },
-            {
-                "target": "garen",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Les Carreaux d'Argent infligent des dégâts réels, ignorant l'accumulation d'armure de Garen.",
-                    "en": "Les Carreaux d'Argent infligent des dégâts réels, ignorant l'accumulation d'armure de Garen."
+            "strong_against": {
+                "champions": [
+                    "Sona",
+                    "Yuumi",
+                    "Lulu",
+                    "Ahri",
+                    "Twitch"
+                ],
+                "explanation": {
+                    "fr": "Les assassins (Zed, Katarina, Akali, Fizz) sont conçus pour éliminer les carries ennemis fragiles avant qu'ils ne puissent réagir.",
+                    "en": "Assassins (Zed, Katarina, Akali, Fizz) are designed to eliminate fragile enemy carries before they can react."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "zed",
-        "counters": [
-            {
-                "target": "lux",
-                "strength": 0.85,
-                "reason": {
-                    "fr": "Zed peut facilement esquiver les compétences de Lux avec ses ombres et l'éliminer rapidement.",
-                    "en": "Zed peut facilement esquiver les compétences de Lux avec ses ombres et l'éliminer rapidement."
-                }
+        },
+        {
+            "name_fr": "Tank contre Burst",
+            "name_en": "Tank vs Burst",
+            "attacker_tags": [
+                "tank"
+            ],
+            "defender_tags": [
+                "burst"
+            ],
+            "score": 0.65,
+            "explanation": {
+                "fr": "Les tanks absorbent les dégâts en burst et survivent aux tentatives d'assassinat.",
+                "en": "Tanks absorb burst damage and survive assassination attempts."
             },
-            {
-                "target": "orianna",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "La mobilité et le potentiel d'assassinat de Zed contrent l'immobilité d'Orianna.",
-                    "en": "La mobilité et le potentiel d'assassinat de Zed contrent l'immobilité d'Orianna."
+            "strong_against": {
+                "champions": [
+                    "Zed",
+                    "Kha'Zix",
+                    "Rengar",
+                    "LeBlanc"
+                ],
+                "explanation": {
+                    "fr": "Les tanks comme Malphite, Rammus ou Ornn peuvent facilement survivre au burst d'un assassin et le contrôler pour que son équipe le finisse.",
+                    "en": "Tanks like Malphite, Rammus, or Ornn can easily survive an assassin's burst and lock them down for their team to finish."
                 }
+            }
+        },
+        {
+            "name_fr": "Régénération contre Harcèlement",
+            "name_en": "Sustain vs Poke",
+            "attacker_tags": [
+                "sustain",
+                "heal"
+            ],
+            "defender_tags": [
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "La régénération annule les dégâts de harcèlement sur la durée.",
+                "en": "Sustain negates poke damage over time."
             },
-            {
-                "target": "syndra",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "L'ultime de Zed lui permet d'esquiver celui de Syndra et de l'assassiner.",
-                    "en": "L'ultime de Zed lui permet d'esquiver celui de Syndra et de l'assassiner."
+            "strong_against": {
+                "champions": [
+                    "Caitlyn",
+                    "Varus",
+                    "Lux",
+                    "Karma"
+                ],
+                "explanation": {
+                    "fr": "Les supports de sustain comme Soraka, Sona ou Nami rendent la phase de lane beaucoup plus facile contre les compos de poke, car ils soignent constamment les dégâts subis.",
+                    "en": "Sustain supports like Soraka, Sona, or Nami make the laning phase much easier against poke compositions by constantly healing the damage taken."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "morgana",
-        "counters": [
-            {
-                "target": "thresh",
-                "strength": 0.8,
-                "reason": {
-                    "fr": "Le bouclier noir (E) de Morgana bloque tout le CC du kit de Thresh.",
-                    "en": "Le bouclier noir (E) de Morgana bloque tout le CC du kit de Thresh."
-                }
+        },
+        {
+            "name_fr": "Dégâts Réels contre Tank",
+            "name_en": "True Damage vs Tank",
+            "attacker_tags": [
+                "true_damage"
+            ],
+            "defender_tags": [
+                "tank",
+                "armor_scaling"
+            ],
+            "score": 0.9,
+            "explanation": {
+                "fr": "Les dégâts réels contournent les résistances des tanks.",
+                "en": "True damage bypasses tank resistances."
             },
-            {
-                "target": "leona",
-                "strength": 0.85,
-                "reason": {
-                    "fr": "Le bouclier noir annule toute la combo d'engagement de Leona.",
-                    "en": "Le bouclier noir annule toute la combo d'engagement de Leona."
+            "strong_against": {
+                "champions": [
+                    "Rammus",
+                    "Malphite",
+                    "Leona",
+                    "Nautilus"
+                ],
+                "explanation": {
+                    "fr": "Les champions avec des dégâts réels comme Vayne, Fiora ou Darius sont les meilleurs pour abattre des tanks très résistants.",
+                    "en": "Champions with true damage like Vayne, Fiora, or Darius are the best at taking down heavily resistant tanks."
                 }
+            }
+        },
+        {
+            "name_fr": "Protection contre Plongée",
+            "name_en": "Peel vs Dive",
+            "attacker_tags": [
+                "peel",
+                "disengage"
+            ],
+            "defender_tags": [
+                "dive",
+                "assassin"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "La protection protège les carries des menaces de plongée/d'assassin.",
+                "en": "Peel protects carries from dive/assassin threats."
             },
-            {
-                "target": "blitzcrank",
-                "strength": 0.9,
-                "reason": {
-                    "fr": "Le bouclier noir empêche le déplacement du grappin et le CC qui suit.",
-                    "en": "Le bouclier noir empêche le déplacement du grappin et le CC qui suit."
+            "strong_against": {
+                "champions": [
+                    "Lee Sin",
+                    "Camille",
+                    "Wukong",
+                    "Irelia"
+                ],
+                "explanation": {
+                    "fr": "Les supports avec un fort peel comme Janna, Lulu ou Braum peuvent contrer les tentatives de dive en repoussant ou neutralisant les assaillants.",
+                    "en": "Supports with strong peel like Janna, Lulu, or Braum can counter dive attempts by pushing back or neutralizing the attackers."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "jax",
-        "counters": [
-            {
-                "target": "irelia",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "La Contre (E) de Jax contrecarre le kit d'Irelia qui dépend des attaques automatiques.",
-                    "en": "La Contre (E) de Jax contrecarre le kit d'Irelia qui dépend des attaques automatiques."
-                }
+        },
+        {
+            "name_fr": "Désengagement contre Engagement",
+            "name_en": "Disengage vs Engage",
+            "attacker_tags": [
+                "disengage"
+            ],
+            "defender_tags": [
+                "engage"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les outils de désengagement contrent les compositions à fort engagement.",
+                "en": "Disengage tools counter heavy engage compositions."
             },
-            {
-                "target": "yasuo",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Contre-attaque bloque les attaques automatiques de Yasuo et Jax le surpasse en duels sur la durée.",
-                    "en": "Contre-attaque bloque les attaques automatiques de Yasuo et Jax le surpasse en duels sur la durée."
+            "strong_against": {
+                "champions": [
+                    "Malphite",
+                    "Leona",
+                    "Amumu",
+                    "Alistar"
+                ],
+                "explanation": {
+                    "fr": "Janna et Gragas, avec leurs capacités à repousser les ennemis, sont d'excellents choix pour désengager et punir les équipes qui misent tout sur l'engagement.",
+                    "en": "Janna and Gragas, with their abilities to knock back enemies, are excellent choices to disengage and punish teams that rely on all-in engages."
                 }
+            }
+        },
+        {
+            "name_fr": "Début de Partie contre Fin de Partie",
+            "name_en": "Early Game vs Late Game",
+            "attacker_tags": [
+                "early_game"
+            ],
+            "defender_tags": [
+                "scaling",
+                "late"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "La pression en début de partie empêche les champions cumulatifs d'atteindre leur pic de puissance.",
+                "en": "Early game pressure prevents scaling champions from reaching their power spike."
             },
-            {
-                "target": "fiora",
-                "strength": 0.65,
-                "reason": {
-                    "fr": "Le E de Jax peut esquiver les procs de points vitaux de Fiora pendant les combats d'équipe.",
-                    "en": "Le E de Jax peut esquiver les procs de points vitaux de Fiora pendant les combats d'équipe."
+            "strong_against": {
+                "champions": [
+                    "Kayle",
+                    "Nasus",
+                    "Veigar",
+                    "Jax",
+                    "Vayne"
+                ],
+                "explanation": {
+                    "fr": "Les junglers early-game comme Lee Sin, Xin Zhao ou Graves peuvent constamment harceler et ralentir la croissance des hypercarries qui ont besoin de temps pour se développer.",
+                    "en": "Early-game junglers like Lee Sin, Xin Zhao, or Graves can constantly harass and slow the growth of hypercarries who need time to scale."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "malphite",
-        "counters": [
-            {
-                "target": "yasuo",
-                "strength": 0.8,
-                "reason": {
-                    "fr": "L'ultime de Malphite fournit un knock-up parfait pour la synergie avec l'ultime de Yasuo.",
-                    "en": "L'ultime de Malphite fournit un knock-up parfait pour la synergie avec l'ultime de Yasuo."
-                }
+        },
+        {
+            "name_fr": "CC contre Canalisation",
+            "name_en": "CC vs Channel",
+            "attacker_tags": [
+                "cc"
+            ],
+            "defender_tags": [
+                "channel"
+            ],
+            "score": 0.9,
+            "explanation": {
+                "fr": "Le CC interrompt les capacités canalisées.",
+                "en": "CC interrupts channeled abilities."
             },
-            {
-                "target": "irelia",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "L'accumulation d'armure réduit considérablement les dégâts d'attaques automatiques d'Irelia.",
-                    "en": "L'accumulation d'armure réduit considérablement les dégâts d'attaques automatiques d'Irelia."
+            "strong_against": {
+                "champions": [
+                    "Malphite",
+                    "Miss Fortune",
+                    "Jhin",
+                    "Katarina",
+                    "Samira"
+                ],
+                "explanation": {
+                    "fr": "Toute forme de contrôle de foule peut interrompre les canalisations cruciales, rendant des champions comme Malphite (R) ou Katarina beaucoup moins efficaces.",
+                    "en": "Any form of crowd control can interrupt crucial channels, making champions like Malphite (R) or Katarina much less effective."
                 }
+            }
+        },
+        {
+            "name_fr": "Métamorphose contre AA",
+            "name_en": "Polymorph vs Auto-Attacker",
+            "attacker_tags": [
+                "polymorph"
+            ],
+            "defender_tags": [
+                "auto_attack",
+                "hypercarry"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "La métamorphose désactive les champions basés sur les auto-attaques.",
+                "en": "Polymorph disables auto-attack based champions."
             },
-            {
-                "target": "jinx",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Malphite peut engager sur Jinx, peu mobile, et l'éliminer avec sa combo complète.",
-                    "en": "Malphite peut engager sur Jinx, peu mobile, et l'éliminer avec sa combo complète."
+            "strong_against": {
+                "champions": [
+                    "Master Yi",
+                    "Jax",
+                    "Tryndamere",
+                    "Vayne",
+                    "Jinx"
+                ],
+                "explanation": {
+                    "fr": "Lulu est le counter ultime des auto-attackers grâce à son polymorph, qui réduit un champion comme Master Yi à l'impuissance pendant plusieurs secondes.",
+                    "en": "Lulu is the ultimate counter to auto-attackers thanks to her polymorph, which renders a champion like Master Yi powerless for several seconds."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "lulu",
-        "counters": [
-            {
-                "target": "zed",
-                "strength": 0.85,
-                "reason": {
-                    "fr": "La métamorphose et l'ultime de Lulu annulent complètement les tentatives d'assassinat de Zed.",
-                    "en": "La métamorphose et l'ultime de Lulu annulent complètement les tentatives d'assassinat de Zed."
-                }
+        },
+        {
+            "name_fr": "Bouclier/Mur contre Harcèlement",
+            "name_en": "Shield/Wall vs Poke",
+            "attacker_tags": [
+                "shield",
+                "wall"
+            ],
+            "defender_tags": [
+                "poke"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Les boucliers et les murs bloquent les dégâts de harcèlement.",
+                "en": "Shields and walls block poke damage."
             },
-            {
-                "target": "rengar",
-                "strength": 0.85,
-                "reason": {
-                    "fr": "Le knock-up de l'ultime et la métamorphose contrent la combo de burst de Rengar.",
-                    "en": "Le knock-up de l'ultime et la métamorphose contrent la combo de burst de Rengar."
+            "strong_against": {
+                "champions": [
+                    "Lux",
+                    "Ziggs",
+                    "Xerath",
+                    "Varus"
+                ],
+                "explanation": {
+                    "fr": "Braum (avec son mur) et les supports à boucliers comme Karma ou Janna réduisent considérablement l'impact du poke ennemi.",
+                    "en": "Braum (with his wall) and shield supports like Karma or Janna significantly reduce the impact of enemy poke."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "braum",
-        "counters": [
-            {
-                "target": "ezreal",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Le bouclier de Braum bloque tous les dégâts de harcèlement d'Ezreal.",
-                    "en": "Le bouclier de Braum bloque tous les dégâts de harcèlement d'Ezreal."
-                }
+        },
+        {
+            "name_fr": "Détection de Camouflage",
+            "name_en": "Stealth Detection",
+            "attacker_tags": [
+                "reveal"
+            ],
+            "defender_tags": [
+                "stealth"
+            ],
+            "score": 0.85,
+            "explanation": {
+                "fr": "La détection de camouflage contrecarre les champions basés sur la furtivité.",
+                "en": "Reveal abilities counter stealth-based champions."
             },
-            {
-                "target": "jinx",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "Le bouclier bloque l'ultime et le W de Jinx, protégeant l'équipe.",
-                    "en": "Le bouclier bloque l'ultime et le W de Jinx, protégeant l'équipe."
+            "strong_against": {
+                "champions": [
+                    "Twitch",
+                    "Evelynn",
+                    "Akali",
+                    "Vayne (Q)",
+                    "Kha'Zix"
+                ],
+                "explanation": {
+                    "fr": "Lee Sin (avec son E) et l'achat d'une Optique Farsight ou d'une Optique Oracle sont cruciaux pour débusquer les champions furtifs.",
+                    "en": "Lee Sin (with his E) and purchasing a Farsight Alteration or Oracle Lens are crucial for flushing out stealth champions."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "nasus",
-        "counters": [
-            {
-                "target": "darius",
-                "strength": -0.7,
-                "reason": {
-                    "fr": "Darius contrecarre fortement Nasus en lane avec son harcèlement et l'empêche d'accumuler des stacks.",
-                    "en": "Darius contrecarre fortement Nasus en lane avec son harcèlement et l'empêche d'accumuler des stacks."
-                }
+        },
+        {
+            "name_fr": "Déplacement contre Positionnement",
+            "name_en": "Displacement vs Positioning",
+            "attacker_tags": [
+                "displacement"
+            ],
+            "defender_tags": [
+                "positioning"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les déplacements ruinent les champions dépendants du positionnement.",
+                "en": "Displacement ruins positioning-dependent champions."
             },
-            {
-                "target": "teemo",
-                "strength": -0.8,
-                "reason": {
-                    "fr": "L'aveuglement et le harcèlement de Teemo empêchent Nasus d'accumuler des stacks en début de partie.",
-                    "en": "L'aveuglement et le harcèlement de Teemo empêchent Nasus d'accumuler des stacks en début de partie."
+            "strong_against": {
+                "champions": [
+                    "Jhin",
+                    "Miss Fortune",
+                    "Caitlyn",
+                    "Lux"
+                ],
+                "explanation": {
+                    "fr": "Les champions avec des sorts de déplacement (comme le headbutt d'Alistar ou l'ultime de Singed) peuvent facilement déstabiliser les champions qui doivent rester immobiles ou bien positionnés.",
+                    "en": "Champions with displacement abilities (like Alistar's headbutt or Singed's fling) can easily destabilize champions that need to stay still or well-positioned."
                 }
             }
-        ],
-        "strong_against": [
-            {
-                "target": "riven",
-                "strength": 0.65,
-                "reason": {
-                    "fr": "Nasus peut ralentir (W) Riven et la surpasser en duels prolongés grâce à sa régénération.",
-                    "en": "Nasus peut ralentir (W) Riven et la surpasser en duels prolongés grâce à sa régénération."
-                }
-            }
-        ]
-    },
-    {
-        "champion": "corki",
-        "counters": [
-            {
-                "target": "malphite",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Les dégâts magiques passifs de Corki contournent l'accumulation d'armure de Malphite.",
-                    "en": "Les dégâts magiques passifs de Corki contournent l'accumulation d'armure de Malphite."
-                }
-            }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "kassadin",
-        "counters": [
-            {
-                "target": "syndra",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "Le passif de Kassadin réduit les dégâts magiques et il peut éliminer les mages après le niveau 6.",
-                    "en": "Le passif de Kassadin réduit les dégâts magiques et il peut éliminer les mages après le niveau 6."
-                }
+        },
+        {
+            "name_fr": "Exécution contre PV Bas",
+            "name_en": "Execute vs Low HP",
+            "attacker_tags": [
+                "execute"
+            ],
+            "defender_tags": [
+                "sustain"
+            ],
+            "score": 0.6,
+            "explanation": {
+                "fr": "Les exécutions achèvent les cibles avant que la régénération ne les sauve.",
+                "en": "Executes finish targets before sustain can save them."
             },
-            {
-                "target": "katarina",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Le silence interrompt l'ultime de Katarina et Kassadin la surpasse sur la durée.",
-                    "en": "Le silence interrompt l'ultime de Katarina et Kassadin la surpasse sur la durée."
+            "strong_against": {
+                "champions": [
+                    "Dr. Mundo",
+                    "Soraka",
+                    "Sona",
+                    "Olaf",
+                    "Warwick"
+                ],
+                "explanation": {
+                    "fr": "Les mécaniques d'exécution comme celle de Pyke (R), Garen (R) ou Urgot (R) ignorent les soins et la régénération, achevant les cibles qui survivraient normalement.",
+                    "en": "Execute mechanics like Pyke's (R), Garen's (R), or Urgot's (R) ignore heals and regeneration, finishing off targets that would normally survive."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "garen",
-        "counters": [
-            {
-                "target": "teemo",
-                "strength": -0.75,
-                "reason": {
-                    "fr": "L'aveuglement et le kite de Teemo empêchent complètement les dégâts de Garen.",
-                    "en": "L'aveuglement et le kite de Teemo empêchent complètement les dégâts de Garen."
-                }
+        },
+        {
+            "name_fr": "Anti-Soin contre Régénération",
+            "name_en": "Grievous Wounds vs Sustain",
+            "attacker_tags": [
+                "grievous"
+            ],
+            "defender_tags": [
+                "sustain",
+                "heal"
+            ],
+            "score": 0.8,
+            "explanation": {
+                "fr": "Les blessures graves réduisent l'efficacité des soins.",
+                "en": "Grievous wounds reduce healing effectiveness."
             },
-            {
-                "target": "vayne",
-                "strength": -0.7,
-                "reason": {
-                    "fr": "Les dégâts réels et le kite de Vayne contrent la robustesse de Garen.",
-                    "en": "Les dégâts réels et le kite de Vayne contrent la robustesse de Garen."
+            "strong_against": {
+                "champions": [
+                    "Soraka",
+                    "Dr. Mundo",
+                    "Vladimir",
+                    "Aatrox",
+                    "Warwick"
+                ],
+                "explanation": {
+                    "fr": "Acheter un Mort de Rancune (AD) ou un Morellonomicon (AP) est essentiel pour contrer les champions qui dépendent fortement des soins pour survivre.",
+                    "en": "Buying a Chemtech Chainsaw (AD) or Morellonomicon (AP) is essential to counter champions that rely heavily on healing to survive."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "thresh",
-        "counters": [
-            {
-                "target": "morgana",
-                "strength": -0.8,
-                "reason": {
-                    "fr": "Le bouclier noir de Morgana annule complètement le grappin et l'enchaînement de CC de Thresh.",
-                    "en": "Le bouclier noir de Morgana annule complètement le grappin et l'enchaînement de CC de Thresh."
-                }
-            }
-        ],
-        "strong_against": [
-            {
-                "target": "jinx",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "Le grappin peut facilement attraper Jinx, peu mobile, et permettre des éliminations.",
-                    "en": "Le grappin peut facilement attraper Jinx, peu mobile, et permettre des éliminations."
-                }
+        },
+        {
+            "name_fr": "Kitage contre Mêlée",
+            "name_en": "Kiting vs Melee",
+            "attacker_tags": [
+                "kite",
+                "ranged"
+            ],
+            "defender_tags": [
+                "melee",
+                "immobile"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Le kitage à distance maintient les champions de mêlée à distance.",
+                "en": "Ranged kiting keeps melee champions at bay."
             },
-            {
-                "target": "ashe",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "Ashe n'a pas d'échappatoire face au grappin de Thresh.",
-                    "en": "Ashe n'a pas d'échappatoire face au grappin de Thresh."
+            "strong_against": {
+                "champions": [
+                    "Garen",
+                    "Darius",
+                    "Mordekaiser",
+                    "Sett",
+                    "Nasus"
+                ],
+                "explanation": {
+                    "fr": "Les ADCs comme Ashe ou Caitlyn, ou les mages comme Ahri, excellent à kiter les brutes de mêlée sans gap closer fiable, leur rendant la vie impossible.",
+                    "en": "ADCs like Ashe or Caitlyn, or mages like Ahri, excel at kiting melee bruisers without reliable gap closers, making their life impossible."
                 }
             }
-        ]
-    },
-    {
-        "champion": "blitzcrank",
-        "counters": [
-            {
-                "target": "morgana",
-                "strength": -0.85,
-                "reason": {
-                    "fr": "Le bouclier noir rend le grappin inutile.",
-                    "en": "Le bouclier noir rend le grappin inutile."
-                }
-            }
-        ],
-        "strong_against": [
-            {
-                "target": "ezreal",
-                "strength": 0.6,
-                "reason": {
-                    "fr": "Même avec son téléport, un grappin réussi peut faire gagner le combat.",
-                    "en": "Même avec son téléport, un grappin réussi peut faire gagner le combat."
-                }
-            }
-        ]
-    },
-    {
-        "champion": "darius",
-        "counters": [
-            {
-                "target": "nasus",
-                "strength": 0.8,
-                "reason": {
-                    "fr": "Darius empêche Nasus d'accumuler des stacks et domine la phase de lane.",
-                    "en": "Darius empêche Nasus d'accumuler des stacks et domine la phase de lane."
-                }
+        },
+        {
+            "name_fr": "Fermeture de Distance contre Immobile",
+            "name_en": "Gap Closer vs Immobile",
+            "attacker_tags": [
+                "mobility",
+                "dash"
+            ],
+            "defender_tags": [
+                "immobile"
+            ],
+            "score": 0.75,
+            "explanation": {
+                "fr": "Les fermetures de distance collent aux champions immobiles.",
+                "en": "Gap closers stick to immobile champions."
             },
-            {
-                "target": "garen",
-                "strength": 0.7,
-                "reason": {
-                    "fr": "Darius inflige plus de dégâts et surpasse Garen dans les combats prolongés.",
-                    "en": "Darius inflige plus de dégâts et surpasse Garen dans les combats prolongés."
+            "strong_against": {
+                "champions": [
+                    "Xerath",
+                    "Jinx",
+                    "Kog'Maw",
+                    "Senna",
+                    "Seraphine"
+                ],
+                "explanation": {
+                    "fr": "Des champions comme Irelia, Lee Sin ou Camille peuvent immédiatement sauter sur les cibles immobiles et ne jamais les laisser s'échapper.",
+                    "en": "Champions like Irelia, Lee Sin, or Camille can immediately jump on immobile targets and never let them escape."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "amumu",
-        "counters": [
-            {
-                "target": "yasuo",
-                "strength": 0.75,
-                "reason": {
-                    "fr": "L'ultime fournit une configuration parfaite pour l'ultime de Yasuo.",
-                    "en": "L'ultime fournit une configuration parfaite pour l'ultime de Yasuo."
+        },
+        {
+            "name_fr": "Zone contre Groupé",
+            "name_en": "AoE vs Grouped",
+            "attacker_tags": [
+                "AoE"
+            ],
+            "defender_tags": [
+                "engage",
+                "grouped"
+            ],
+            "score": 0.7,
+            "explanation": {
+                "fr": "Les dégâts de zone punissent les compositions d'équipe groupées.",
+                "en": "AoE damage punishes grouped team compositions."
+            },
+            "strong_against": {
+                "champions": [
+                    "Yuumi",
+                    "Lulu",
+                    "Janna",
+                    "Compositions de dive"
+                ],
+                "explanation": {
+                    "fr": "Les champions avec d'énormes dégâts de zone comme Miss Fortune, Orianna ou Diana infligent des dégâts dévastateurs aux équipes qui aiment se regrouper pour engager ou protéger un carry.",
+                    "en": "Champions with huge AoE damage like Miss Fortune, Orianna, or Diana deal devastating damage to teams that like to group up to engage or protect a carry."
                 }
             }
-        ],
-        "strong_against": []
-    },
-    {
-        "champion": "alistar",
-        "counters": [
-            {
-                "target": "katarina",
-                "strength": 0.8,
-                "reason": {
-                    "fr": "Le knock-up d'Alistar interrompt le channel de l'ultime de Katarina.",
-                    "en": "Le knock-up d'Alistar interrompt le channel de l'ultime de Katarina."
-                }
-            }
-        ],
-        "strong_against": []
-    }
-]
+        }
+    ]
+}

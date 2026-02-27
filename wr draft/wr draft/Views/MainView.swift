@@ -16,8 +16,8 @@ struct MainView: View {
                         CompactDraftView(viewModel: viewModel, language: $language)
                     } else {
                         VStack(spacing: 0) {
-                            header(title: "WILD RIFT DRAFT TOOL")
-                            WideDraftView(viewModel: viewModel)
+                            header(title: L10n.tr("draft_title", language))
+                            WideDraftView(viewModel: viewModel, language: language)
                         }
                     }
                 }
@@ -31,7 +31,7 @@ struct MainView: View {
                 CounterLookupView(viewModel: viewModel, language: language)
             }
             .tabItem {
-                Label(L10n.tr("counters_tab", language), systemImage: "sword.fill")
+                Label(L10n.tr("counters_tab", language), systemImage: "bolt.fill")
             }
         }
         .preferredColorScheme(.dark)
@@ -41,16 +41,6 @@ struct MainView: View {
     // MARK: - Header
     func header(title: String) -> some View {
         HStack {
-            Image("logo")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 40, height: 40)
-            
-            Text(title)
-                .font(.custom("Avenir-Black", size: 24))
-                .tracking(2)
-                .foregroundColor(.white)
-            
             Spacer()
             
             HStack(spacing: 15) {
@@ -82,12 +72,13 @@ struct MainView: View {
 // MARK: - Mise en page large (iPad / macOS)
 struct WideDraftView: View {
     @ObservedObject var viewModel: DraftViewModel
+    var language: String
     
     var body: some View {
         HStack(spacing: 0) {
             // Colonne gauche: ALLY
             DraftColumnView(
-                title: "ALLY",
+                title: L10n.tr("ally", language),
                 picks: viewModel.teamPicks,
                 side: .ally,
                 activeIndex: viewModel.activeSlot?.side == .ally ? viewModel.activeSlot?.index : nil,
@@ -102,7 +93,7 @@ struct WideDraftView: View {
             
             // Colonne droite: ENEMY
             DraftColumnView(
-                title: "ENEMY",
+                title: L10n.tr("enemy", language),
                 picks: viewModel.enemyPicks,
                 side: .enemy,
                 activeIndex: viewModel.activeSlot?.side == .enemy ? viewModel.activeSlot?.index : nil,
@@ -137,7 +128,7 @@ struct CompactDraftView: View {
                     .padding(.top, 8)
                     
                     // Sélecteur ALLY / ENEMY
-                    Picker("Side", selection: $selectedSide) {
+                    Picker(L10n.tr("side", language), selection: $selectedSide) {
                         Text(L10n.tr("ally", language)).tag(DraftViewModel.SlotSelection.Side.ally)
                         Text(L10n.tr("enemy", language)).tag(DraftViewModel.SlotSelection.Side.enemy)
                     }
@@ -201,7 +192,7 @@ struct CompactDraftView: View {
                                 .fill(slot.side == .ally ? Color(hex: "00FFC8") : Color(hex: "FF3366"))
                                 .frame(width: 10, height: 10)
                             
-                            Text("\(L10n.tr("selecting_for", language)) \(slot.side == .ally ? L10n.tr("ally", language) : L10n.tr("enemy", language)) - \(viewModel.slotRoles[slot.index].uppercased())")
+                            Text("\(L10n.tr("selecting_for", language)) \(slot.side == .ally ? L10n.tr("ally", language) : L10n.tr("enemy", language)) - \(L10n.tr(viewModel.slotRoles[slot.index], language))")
                                 .font(.caption.bold())
                                 .foregroundColor(Color(hex: "D4AF37"))
                             
@@ -224,16 +215,7 @@ struct CompactDraftView: View {
             }
             .background(Color(hex: "050A0F"))
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    HStack(spacing: 8) {
-                        Image("logo")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 24, height: 24)
-                        Text(L10n.tr("draft_title", language))
-                            .font(.headline)
-                    }
-                }
+            
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
                         Button {
@@ -266,7 +248,15 @@ struct CompactDraftView: View {
         }
     }
     
-    private var rolesLabel: [String] { ["TOP", "JUNGLE", "MID", "ADC", "SUPP"] }
+    private var rolesLabel: [String] {
+        [
+            L10n.tr("top", language),
+            L10n.tr("jungle", language),
+            L10n.tr("mid", language),
+            L10n.tr("adc", language),
+            L10n.tr("support", language)
+        ]
+    }
     
     private var currentPicks: [Champion?] {
         selectedSide == .ally ? viewModel.teamPicks : viewModel.enemyPicks
@@ -330,7 +320,7 @@ struct CenterPanelView: View {
                         .fill(slot.side == .ally ? Color(hex: "00FFC8") : Color(hex: "FF3366"))
                         .frame(width: 10, height: 10)
                     
-                    Text("\(L10n.tr("selecting_for", viewModel.language)) \(slot.side == .ally ? L10n.tr("ally", viewModel.language) : L10n.tr("enemy", viewModel.language)) - \(viewModel.slotRoles[slot.index].uppercased())")
+                    Text("\(L10n.tr("selecting_for", viewModel.language)) \(slot.side == .ally ? L10n.tr("ally", viewModel.language) : L10n.tr("enemy", viewModel.language)) - \(L10n.tr(viewModel.slotRoles[slot.index], viewModel.language))")
                         .font(.caption.bold())
                         .foregroundColor(Color(hex: "D4AF37"))
                     
@@ -419,9 +409,9 @@ struct TeamStatsView: View {
             // Detailed Gauges
             if showDetails {
                 HStack(alignment: .top, spacing: 30) {
-                    DetailedStatPanel(title: "ALLY STATS", stats: allyStats, color: Color(hex: "00FFC8"), language: language)
+                    DetailedStatPanel(title: L10n.tr("ally_stats_title", language), stats: allyStats, color: Color(hex: "00FFC8"), language: language)
                     Divider().background(Color.white.opacity(0.1)).frame(height: 100)
-                    DetailedStatPanel(title: "ENEMY STATS", stats: enemyStats, color: Color(hex: "FF3366"), language: language)
+                    DetailedStatPanel(title: L10n.tr("enemy_stats_title", language), stats: enemyStats, color: Color(hex: "FF3366"), language: language)
                 }
                 .padding(.bottom)
                 .transition(.move(edge: .top).combined(with: .opacity))
@@ -558,10 +548,12 @@ struct SlotView: View {
     var body: some View {
         HStack {
             Image(role.lowercased())
+                .renderingMode(.template)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 22, height: 22)
-                .opacity(0.8)
+                .foregroundColor(Color(hex: "D4AF37"))
+                .opacity(0.9)
             
             VStack(alignment: .leading) {
                 Text(role)
@@ -638,6 +630,7 @@ struct RecommendationRow: View {
                             TierBadge(tier: recommendation.tierName)
                         }
                         
+                        // Champion.description is LocalizedText; call .get directly
                         Text(recommendation.champion.description.get(language))
                             .font(.caption)
                             .foregroundColor(.gray)
@@ -736,6 +729,7 @@ struct RoleSelectorView: View {
                     onChange()
                 }) {
                     Image(role.lowercased())
+                        .renderingMode(.template)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 20, height: 20)
@@ -950,4 +944,3 @@ struct ChampionPickerModal: View {
         }
     }
 }
-

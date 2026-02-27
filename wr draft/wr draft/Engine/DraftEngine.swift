@@ -59,22 +59,18 @@ final class DraftEngine {
         
         // Load counters
         struct CountersWrapper: Codable { let counters: [Counter] }
+        var allCounters: [Counter] = []
         if let wrapper: CountersWrapper = loadJSON("counters.json") {
-            self.counters = wrapper.counters
-        } else {
-            self.counters = []
+            allCounters.append(contentsOf: wrapper.counters)
         }
+        if let wrapper: CountersWrapper = loadJSON("champion_counters.json") {
+            allCounters.append(contentsOf: wrapper.counters)
+        }
+        self.counters = allCounters
         
-        // Load champion counters (matchups)
-        if let matchups: [ChampionMatchup] = loadJSON("champion_counters.json") {
-            var map: [String: ChampionMatchup] = [:]
-            for matchup in matchups {
-                map[matchup.champion] = matchup
-            }
-            self.championMatchups = map
-        } else {
-            self.championMatchups = [:]
-        }
+        // Load champion matchups (if any files match the ChampionMatchup array structure)
+        // Currently champion_counters.json uses the Counter structure, so we don't load it here.
+        self.championMatchups = [:]
         
         // Load tier list
         self.tierList = loadJSON("tier_list.json")
@@ -208,8 +204,9 @@ final class DraftEngine {
                     if (champTags.contains(tagsList[0]) && teammateTags.contains(tagsList[1])) ||
                        (champTags.contains(tagsList[1]) && teammateTags.contains(tagsList[0])) {
                         
-                        let count = (synergyCounts[synergy.name] ?? 0) + 1
-                        synergyCounts[synergy.name] = count
+                        let synergyName = synergy.getName(lang)
+                        let count = (synergyCounts[synergyName] ?? 0) + 1
+                        synergyCounts[synergyName] = count
                         
                         var multiplier = 1.0
                         if count == 2 { multiplier = 0.75 }
@@ -220,7 +217,7 @@ final class DraftEngine {
                         totalScore += contrib
                         
                         let format = L10n.tr("synergy_with", lang)
-                        explanations.append(String(format: format, synergy.name, teammate.name, synergy.explanation.get(lang)))
+                        explanations.append(String(format: format, synergyName, teammate.name, synergy.explanation.get(lang)))
                     }
                 }
             }
@@ -237,11 +234,10 @@ final class DraftEngine {
         var totalScore = 0.0
         var explanations: [String] = []
         
-        var champTags = Set(champion.kitTags)
-        champTags.insert(champion.id)
+        let champTags = Set(champion.kitTags)
         let champId = champion.id
         
-        // Specific matchups
+        // Specific matchups from championMatchups (if any)
         if let matchups = championMatchups[champId] {
             if let countersList = matchups.counters {
                 for counter in countersList {
@@ -249,7 +245,8 @@ final class DraftEngine {
                         totalScore += counter.strength
                         let enemyName = championMap[counter.target]?.name ?? counter.target
                         let format = L10n.tr("strength_vs", lang)
-                        explanations.append(String(format: format, enemyName, counter.reason.get(lang)))
+                        // "%@ — Advantage vs %@: %@" -> champion.name, enemyName, reason
+                        explanations.append(String(format: format, champion.name, enemyName, counter.reason.get(lang)))
                     }
                 }
             }
@@ -259,13 +256,14 @@ final class DraftEngine {
                         totalScore += strong.strength
                         let enemyName = championMap[strong.target]?.name ?? strong.target
                         let format = L10n.tr("strong_against", lang)
-                        explanations.append(String(format: format, enemyName, strong.reason.get(lang)))
+                        // "%@ — Strong against %@: %@" -> champion.name, enemyName, reason
+                        explanations.append(String(format: format, champion.name, enemyName, strong.reason.get(lang)))
                     }
                 }
             }
         }
         
-        // Archetype counters
+        // Archetype counters & Extended counter data
         for enemyId in enemyTeam {
             guard let enemy = championMap[enemyId] else { continue }
             let enemyTags = Set(enemy.kitTags)
@@ -274,10 +272,20 @@ final class DraftEngine {
                 let attackerTags = Set(counter.attackerTags)
                 let defenderTags = Set(counter.defenderTags)
                 
-                if attackerTags.isSubset(of: champTags) && !defenderTags.intersection(enemyTags).isEmpty {
-                    totalScore += counter.score
+                // 1. Tag-based match
+                let tagMatch = attackerTags.isSubset(of: champTags) && !defenderTags.intersection(enemyTags).isEmpty
+                
+                // 2. Specific champion match in strong_against
+                let specificMatch = counter.strongAgainst?.champions.contains(enemyId) ?? false
+                
+                if tagMatch || specificMatch {
+                    let score = specificMatch ? counter.score * 1.2 : counter.score
+                    totalScore += score
+                    
+                    let exp = specificMatch ? (counter.strongAgainst?.explanation.get(lang) ?? counter.explanation.get(lang)) : counter.explanation.get(lang)
                     let format = L10n.tr("strength_vs", lang)
-                    explanations.append(String(format: format, enemy.name, counter.explanation.get(lang)))
+                    // "%@ — Advantage vs %@: %@" -> champion.name, enemy.name, explanation
+                    explanations.append(String(format: format, champion.name, enemy.name, exp))
                 }
             }
         }
@@ -307,7 +315,8 @@ final class DraftEngine {
                             let penalty = abs(counter.strength)
                             totalScore += penalty
                             let format = L10n.tr("hard_countered", lang)
-                            explanations.append(String(format: format, enemy.name, counter.reason.get(lang)))
+                            // "%@ — Countered by %@: %@" -> champion.name, enemy.name, reason
+                            explanations.append(String(format: format, champion.name, enemy.name, counter.reason.get(lang)))
                         }
                     }
                 }
@@ -317,13 +326,14 @@ final class DraftEngine {
                             let penalty = abs(strong.strength)
                             totalScore += penalty
                             let format = L10n.tr("weak_against", lang)
-                            explanations.append(String(format: format, enemy.name, strong.reason.get(lang)))
+                            // "%@ — Weak against %@: %@" -> champion.name, enemy.name, reason
+                            explanations.append(String(format: format, champion.name, enemy.name, strong.reason.get(lang)))
                         }
                     }
                 }
             }
             
-            // Archetype vulnerabilities
+            // Archetype vulnerabilities & Specific counters
             var enemyTagsWithId = Set(enemy.kitTags)
             enemyTagsWithId.insert(enemy.id)
             
@@ -331,10 +341,17 @@ final class DraftEngine {
                 let attackerTags = Set(counter.attackerTags)
                 let defenderTags = Set(counter.defenderTags)
                 
-                if attackerTags.isSubset(of: enemyTagsWithId) && !defenderTags.intersection(champTags).isEmpty {
-                    totalScore += counter.score
+                let tagMatch = attackerTags.isSubset(of: enemyTagsWithId) && !defenderTags.intersection(champTags).isEmpty
+                let specificMatch = counter.strongAgainst?.champions.contains(champId) ?? false
+                
+                if tagMatch || specificMatch {
+                    let score = specificMatch ? counter.score * 1.2 : counter.score
+                    totalScore += score
+                    
+                    let exp = specificMatch ? (counter.strongAgainst?.explanation.get(lang) ?? counter.explanation.get(lang)) : counter.explanation.get(lang)
                     let format = L10n.tr("countered_by_arch", lang)
-                    explanations.append(String(format: format, enemy.name, counter.name, counter.explanation.get(lang)))
+                    // "📐 %@ (%@) — %@" -> champion.name, archetype/counter name, explanation
+                    explanations.append(String(format: format, champion.name, counter.getName(lang), exp))
                 }
             }
         }
@@ -457,4 +474,3 @@ final class DraftEngine {
         return Array(recommendations.sorted { $0.totalScore > $1.totalScore }.prefix(topN))
     }
 }
-

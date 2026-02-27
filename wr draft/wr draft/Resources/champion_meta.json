@@ -515,11 +515,9 @@
       "late_scaling": 0.7
     },
     "malphite": {
-      "power_spike": "mid",
+      "power_spike": "top",
       "flex_roles": [
-        "top",
-        "support",
-        "jungle"
+        "support"
       ],
       "early_impact": 0.5,
       "late_scaling": 0.8

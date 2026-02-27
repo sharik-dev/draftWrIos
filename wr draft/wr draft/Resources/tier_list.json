@@ -253,11 +253,11 @@
             "notes": "Mage longue portée, burst, bouclier"
         },
         "malphite": {
-            "tier": "S",
+            "tier": "B",
             "notes": "Ultimate avec knockup, cumul d'armure, contrecarre l'AD"
         },
         "maokai": {
-            "tier": "B",
+            "tier": "A",
             "notes": "Tank d'engagement, chaîne de CC, saprolins"
         },
         "masterYi": {
@@ -441,7 +441,7 @@
             "notes": "Aveuglement, champignons, tyran de lane mais évolue mal"
         },
         "thresh": {
-            "tier": "S",
+            "tier": "A",
             "notes": "Grappin, lanterne, coup de faux - kit de support ultime"
         },
         "tristana": {

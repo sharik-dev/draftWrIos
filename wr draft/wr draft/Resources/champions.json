@@ -16,8 +16,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Colosse dévastateur Baron / Jungle",
-                "en": "Juggernaut of Baron / Jungle"
+                "fr": "Colosse dévastateur expert en drain-tanking, capable de décimer des équipes entières sous sa forme démoniaque.",
+                "en": "Devastating juggernaut and drain-tank master, capable of decimating teams in his demonic form."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Aatrox.png"
         },
@@ -39,8 +39,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Mage assassin mobile avec charme",
-                "en": "Mobile mage assassin with charm"
+                "fr": "Mage-assassin mobile spécialisée dans la capture de cibles isolées avec son charme et ses assauts déchaînés.",
+                "en": "Highly mobile mage-assassin specializing in picking off isolated targets with her charm and multi-dash ultimate."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ahri.png"
         },
@@ -63,8 +63,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Assassin furtif à haut potentiel d'outplay",
-                "en": "Stealth assassin with high outplay potential"
+                "fr": "Assassin insaisissable qui danse entre les ombres pour exécuter ses cibles avec une précision chirurgicale.",
+                "en": "Elusive assassin who dances through shadows to execute targets with surgical precision."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Akali.png"
         },
@@ -84,8 +84,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Mid / ADC champion",
-                "en": "Mid / ADC champion"
+                "fr": "Vengeur agile capable de ressusciter ses alliés et de traquer ses ennemis avec son grappin.",
+                "en": "Agile avenger capable of resurrecting allies and hunting scoundrels with his heroic swing."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Akshan.png"
         },
@@ -108,8 +108,8 @@
             "damage_type": "AP",
             "scaling": "early",
             "description": {
-                "fr": "Tanky engage support with knockup combo",
-                "en": "Tanky engage support with knockup combo"
+                "fr": "Soutien tanky incontournable, maître de l'engagement et de la protection avec ses projections dévastatrices.",
+                "en": "Unstoppable tank support, master of engage and peel with his signature knock-up combos."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Alistar.png"
         },
@@ -129,8 +129,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Polyvalent du rôle TOP offrant une grande valeur stratégique.",
+                "en": "Versatile TOP pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ambessa.png"
         },
@@ -158,8 +158,8 @@
                 "objective": 6
             },
             "description": {
-                "fr": "AoE tank with game-changing ultimate",
-                "en": "AoE tank with game-changing ultimate"
+                "fr": "Momie mélancolique dont les pleurs et les malédictions immobilisent des équipes entières en combat.",
+                "en": "Melancholy mummy whose tears and curses can lock down entire teams in crucial teamfights."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Amumu.png"
         },
@@ -181,8 +181,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Burst mage with AoE stun",
-                "en": "Burst mage with AoE stun"
+                "fr": "Mage explosive capable d'invoquer Tibbers pour étourdir et anéantir ses adversaires instantanément.",
+                "en": "Burst mage who summons Tibbers to stun and incinerate opponents in the blink of an eye."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Annie.png"
         },
@@ -203,8 +203,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "ADC / Support champion",
-                "en": "ADC / Support champion"
+                "fr": "Archère de givre offrant un contrôle de zone permanent et une vision stratégique inégalée sur la carte.",
+                "en": "Frost archer providing constant zone control and unmatched strategic vision across the map."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ashe.png"
         },
@@ -223,8 +223,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Forgeur d'étoiles céleste capable d'invoquer des météores dévastateurs sur des zones immenses.",
+                "en": "Celestial star-forger capable of calling down devastating meteors over massive areas."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/AurelionSol.png"
         },
@@ -243,8 +243,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Aurora.png"
         },
@@ -263,8 +263,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Polyvalent du rôle SUPPORT offrant une grande valeur stratégique.",
+                "en": "Versatile SUPPORT pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Bard.png"
         },
@@ -285,8 +285,8 @@
             "damage_type": "AP",
             "scaling": "early",
             "description": {
-                "fr": "Hook support with instant picks",
-                "en": "Hook support with instant picks"
+                "fr": "Golem de vapeur dont le grappin peut changer le cours d'une partie en isolant une cible prioritaire.",
+                "en": "Steam golem whose rocket grab can tilt a game by isolating a priority target."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Blitzcrank.png"
         },
@@ -306,8 +306,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support / Mid champion",
-                "en": "Support / Mid champion"
+                "fr": "Mage de feu dévastateur en combat d'équipe, propageant des flammes qui consument les barres de PV.",
+                "en": "Fire mage who excels in teamfights, spreading blazes that melt through enemy health bars."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Brand.png"
         },
@@ -329,8 +329,8 @@
             "damage_type": "AP",
             "scaling": "early",
             "description": {
-                "fr": "Defensive tank support with wall",
-                "en": "Defensive tank support with wall"
+                "fr": "Protecteur au cœur d'or, capable de bloquer les projectiles et de geler les ennemis avec son bouclier.",
+                "en": "Heart-of-gold protector, capable of blocking projectiles and freezing foes with his massive shield."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Braum.png"
         },
@@ -350,8 +350,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Tireuse d'élite à la portée immense, experte en siège et en contrôle de zone avec ses pièges.",
+                "en": "Elite sniper with immense range, expert at sieging and zone control with tactical traps."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Caitlyn.png"
         },
@@ -374,8 +374,8 @@
             "damage_type": "AD",
             "scaling": "late",
             "description": {
-                "fr": "Mobile duelist with true damage and lockdown",
-                "en": "Mobile duelist with true damage and lockdown"
+                "fr": "Duelliste de haute précision capable de verrouiller une cible et de l'éliminer avec ses jambes tranchantes.",
+                "en": "Precision duelist capable of locking down a target and eliminating them with her blade-legs."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Camille.png"
         },
@@ -395,8 +395,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid / ADC champion",
-                "en": "Mid / ADC champion"
+                "fr": "Artilleur aérien infligeant d'énormes dégâts hybrides à longue distance avec ses missiles.",
+                "en": "Aerial bombardier dealing massive hybrid damage from long range with his rocket barrage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Corki.png"
         },
@@ -419,8 +419,8 @@
             "damage_type": "AD",
             "scaling": "early",
             "description": {
-                "fr": "Bruiser with execute ultimate and resets",
-                "en": "Bruiser with execute ultimate and resets"
+                "fr": "Puissance de Noxus qui écrase ses adversaires et les exécute avec sa guillotine sanglante.",
+                "en": "Noxian might personified, crushing lane opponents and executing them with his bloody guillotine."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Darius.png"
         },
@@ -440,8 +440,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Jungle champion",
-                "en": "Mid / Jungle champion"
+                "fr": "Combattante lunaire alliant burst magique et engagement de zone dévastateur.",
+                "en": "Lunar warrior combining high magic burst with devastating area-of-effect engagement."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Diana.png"
         },
@@ -461,8 +461,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Colosse increvable qui va où il veut, régénérant ses PV plus vite que l'ennemi ne peut les retirer.",
+                "en": "Unstoppable juggernaut who goes where he pleases, regenerating health faster than foes can deal damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/DrMundo.png"
         },
@@ -483,8 +483,8 @@
             "damage_type": "AD",
             "scaling": "early",
             "description": {
-                "fr": "High-damage early game ADC with axes",
-                "en": "High-damage early game ADC with axes"
+                "fr": "Gladiateur arrogant infligeant des dégâts physiques colossaux s'il parvient à rattraper ses haches.",
+                "en": "Arrogant gladiator dealing colossal physical damage as long as he keeps catching his axes."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Draven.png"
         },
@@ -504,8 +504,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Jungle champion",
-                "en": "Mid / Jungle champion"
+                "fr": "Génie du temps capable de manipuler le passé pour corriger ses erreurs et surprendre ses adversaires.",
+                "en": "Time-shattering genius capable of manipulating the past to fix mistakes and outplay foes."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ekko.png"
         },
@@ -525,8 +525,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Démon de la luxure chassant dans l'obscurité, capable de punir instantanément toute cible isolée.",
+                "en": "Demon of agony hunting from the shadows, capable of instantly punishing any isolated target."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Evelynn.png"
         },
@@ -549,8 +549,8 @@
             "damage_type": "AD",
             "scaling": "mid",
             "description": {
-                "fr": "Mobile poke ADC with global ultimate",
-                "en": "Mobile poke ADC with global ultimate"
+                "fr": "Explorateur insaisissable harcelant ses ennemis à longue distance avec ses projectiles arcaniques.",
+                "en": "Elusive explorer harassing enemies from long range with arcane projectiles and swift blinks."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ezreal.png"
         },
@@ -570,8 +570,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fiddlesticks.png"
         },
@@ -594,8 +594,8 @@
             "damage_type": "AD",
             "scaling": "late",
             "description": {
-                "fr": "Duelist top laner with true damage",
-                "en": "Duelist top laner with true damage"
+                "fr": "Fine lame d'élite capable de parer n'importe quel coup et de briser les points vitaux ennemis.",
+                "en": "Precision grand duelist capable of parrying any blow and shattering enemy vitals."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fiora.png"
         },
@@ -614,8 +614,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Filou des mers agile capable d'esquiver les sorts et de lancer un requin dévastateur sur ses proies.",
+                "en": "Agile trickster of the sea, dodging spells and unleashing devastating sharks upon his prey."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Fizz.png"
         },
@@ -635,8 +635,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Support champion",
-                "en": "Mid / Support champion"
+                "fr": "Colosse anti-mage capable d'intervenir n'importe où sur la carte pour protéger ses alliés.",
+                "en": "Anti-mage colossus capable of crashing into the fray from anywhere to protect his allies."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Galio.png"
         },
@@ -655,8 +655,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Héros de Demacia, simple mais efficace, capable de résister à tout et d'exécuter les criminels.",
+                "en": "Hero of Demacia, simple but effective, capable of tanking everything and executing villains."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Garen.png"
         },
@@ -675,8 +675,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Polyvalent du rôle TOP offrant une grande valeur stratégique.",
+                "en": "Versatile TOP pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gnar.png"
         },
@@ -697,8 +697,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle / Baron champion",
-                "en": "Jungle / Baron champion"
+                "fr": "Bagarreur polyvalent capable de disperser l'équipe ennemie avec son tonneau explosif.",
+                "en": "Versatile brawler capable of disrupting the entire enemy team with his explosive cask."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gragas.png"
         },
@@ -725,8 +725,8 @@
                 "objective": 8
             },
             "description": {
-                "fr": "Tanky burst jungler with strong clear",
-                "en": "Tanky burst jungler with strong clear"
+                "fr": "Hors-la-loi à courte portée dont le fusil à pompe inflige des dégâts massifs en zone.",
+                "en": "Short-range outlaw whose shotgun blasts deal massive area-of-effect physical damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Graves.png"
         },
@@ -746,8 +746,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Poupée enchantée découpant les tanks avec ses ciseaux et s'abritant dans sa brume sacrée.",
+                "en": "Enchanted doll snipping through tanks with her scissors and hiding in her hallowed mist."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Gwen.png"
         },
@@ -767,8 +767,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Ombre de la guerre piétinant ses ennemis avec une vitesse et une force d'engagement terrifiantes.",
+                "en": "Shadow of War trampling enemies with terrifying speed and engagement force."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Hecarim.png"
         },
@@ -788,8 +788,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Baron champion",
-                "en": "Mid / Baron champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Heimerdinger.png"
         },
@@ -809,8 +809,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Mid champion",
-                "en": "Baron / Mid champion"
+                "fr": "Danseuse des lames fluide, capable d'enchaîner les dashs pour décimer les lignes ennemies.",
+                "en": "Fluid blade-dancer, capable of chaining dashes to decimate the enemy backline."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Irelia.png"
         },
@@ -832,8 +832,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Disengage support with shields and knockups",
-                "en": "Disengage support with shields and knockups"
+                "fr": "Avatar de l'air offrant la meilleure protection du jeu avec ses tornades et ses soins de zone.",
+                "en": "Avatar of the air providing premier peel and protection with tornadoes and area heals."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Janna.png"
         },
@@ -853,8 +853,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Prince exemplaire dont l'engagement et le cataclysme forcent l'ennemi au combat.",
+                "en": "Exemplary prince whose engagement and cataclysmic arena force enemies into battle."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/JarvanIV.png"
         },
@@ -874,8 +874,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Maître d'armes inégalé en duel, capable de sauter sur ses proies et d'esquiver les attaques.",
+                "en": "Unmatched duelist and weapon master, capable of leaping onto prey and dodging all attacks."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jax.png"
         },
@@ -895,8 +895,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Baron / Mid champion",
-                "en": "Baron / Mid champion"
+                "fr": "Défenseur de demain alternant entre marteau dévastateur et canon à longue portée.",
+                "en": "Defender of Tomorrow switching between heavy hammer blows and long-range cannon fire."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jayce.png"
         },
@@ -916,8 +916,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Artiste virtuose dont chaque tir est une œuvre d'art mortelle, culminant en un final grandiose.",
+                "en": "Virtuoso artist whose every shot is a deadly masterpiece, culminating in a grand finale."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jhin.png"
         },
@@ -939,8 +939,8 @@
             "damage_type": "AD",
             "scaling": "late",
             "description": {
-                "fr": "Hypercarry ADC with resets and global ultimate",
-                "en": "Hypercarry ADC with resets and global ultimate"
+                "fr": "Gâchette folle capable de devenir hors de contrôle après une élimination pour raser les bases.",
+                "en": "Loose cannon capable of spiraling out of control after a kill to shred through entire teams."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Jinx.png"
         },
@@ -960,8 +960,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Fille du Néant évoluant au fil du combat pour devenir l'assassin ou le tireur ultime.",
+                "en": "Daughter of the Void evolving through combat to become the ultimate assassin or marksman."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kaisa.png"
         },
@@ -981,8 +981,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Spectre de la vengeance bound avec son support, sautant sans cesse pour harceler ses cibles.",
+                "en": "Spear of Vengeance bound to her support, jumping restlessly to hurl spears at her foes."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kalista.png"
         },
@@ -1002,8 +1002,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support / Mid champion",
-                "en": "Support / Mid champion"
+                "fr": "Mage de soutien polyvalente capable d'amplifier ses sorts pour protéger ou détruire.",
+                "en": "Versatile support mage capable of mantra-empowering her spells to protect or destroy."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Karma.png"
         },
@@ -1022,8 +1022,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kassadin.png"
         },
@@ -1045,8 +1045,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Reset assassin with AoE damage",
-                "en": "Reset assassin with AoE damage"
+                "fr": "Assassin aux dagues tourbillonnantes, experte en éliminations multiples grâce à ses réinitialisations.",
+                "en": "Whirling dagger assassin, master of multi-kills thanks to her lethal reset mechanics."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Katarina.png"
         },
@@ -1066,8 +1066,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron / Mid champion",
-                "en": "Baron / Mid champion"
+                "fr": "Justicière divine dont la puissance augmente au fil du temps jusqu'à devenir transcendante.",
+                "en": "Divine justiciar whose power grows over time until she achieves transcendent fury."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kayle.png"
         },
@@ -1087,8 +1087,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Faucheur de l'ombre capable de traverser les murs et de choisir sa forme selon ses victimes.",
+                "en": "Shadow reaper capable of walking through walls and choosing his form based on his prey."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kayn.png"
         },
@@ -1108,8 +1108,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Mid champion",
-                "en": "Baron / Mid champion"
+                "fr": "Polyvalent du rôle TOP offrant une grande valeur stratégique.",
+                "en": "Versatile TOP pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kennen.png"
         },
@@ -1129,8 +1129,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Prédateur du Néant isolant ses proies pour les assassiner et évoluer au fil de la traque.",
+                "en": "Void predator isolating prey to assassinate them and evolving his kit as the hunt continues."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Khazix.png"
         },
@@ -1150,8 +1150,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Chasseurs éternels marquant leurs proies pour gagner en puissance et défiant la mort elle-même.",
+                "en": "Eternal hunters marking prey for power and defying death itself with their final sanctuary."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Kindred.png"
         },
@@ -1171,8 +1171,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Polyvalent du rôle ADC offrant une grande valeur stratégique.",
+                "en": "Versatile ADC pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/KogMaw.png"
         },
@@ -1201,8 +1201,8 @@
                 "objective": 7
             },
             "description": {
-                "fr": "Mobile early-game jungler with insec plays",
-                "en": "Mobile early-game jungler with insec plays"
+                "fr": "Jungler mobile de début de partie avec des jeux 'Insec'",
+                "en": "Mobile early-game jungler with 'Insec' plays"
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/LeeSin.png"
         },
@@ -1221,8 +1221,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Aurore radieuse incapable de laisser ses ennemis bouger sous le poids de son bouclier solaire.",
+                "en": "Radiant dawn incapable of letting enemies move under the weight of her solar stuns."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Leona.png"
         },
@@ -1242,8 +1242,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Faon onirique bondissant dans le combat pour endormir ses adversaires et les frapper en rythme.",
+                "en": "Dream-laden fawn prancing through battle to lull enemies to sleep and strike in rhythm."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lillia.png"
         },
@@ -1262,8 +1262,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lissandra.png"
         },
@@ -1283,8 +1283,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Purificateur agile infligeant des rafales de tirs rapides pour dominer ses adversaires.",
+                "en": "Agile purifier unleashing rapid-fire volleys to dominate his lane opponents."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lucian.png"
         },
@@ -1307,8 +1307,8 @@
             "damage_type": "AP",
             "scaling": "early",
             "description": {
-                "fr": "Utility support with polymorph and buffs",
-                "en": "Utility support with polymorph and buffs"
+                "fr": "Sorcière féérique capable de transformer les ennemis en animaux et de faire grandir ses alliés.",
+                "en": "Fae sorceress capable of polymorphing foes and making her allies grow into giants."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lulu.png"
         },
@@ -1331,8 +1331,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Long-range mage with burst and CC",
-                "en": "Long-range mage with burst and CC"
+                "fr": "Dame de lumière capable d'emprisonner ses cibles avant de les désintégrer avec son laser.",
+                "en": "Lady of Luminosity capable of binding targets before disintegrating them with her final spark."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Lux.png"
         },
@@ -1341,7 +1341,7 @@
             "name": "Malphite",
             "roles": {
                 "top": 1.0,
-                "mid": 0.6,
+                "mid": 0.2,
                 "support": 0.4
             },
             "kit_tags": [
@@ -1356,8 +1356,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Tank with massive AoE engage ultimate",
-                "en": "Tank with massive AoE engage ultimate"
+                "fr": "Éclat de monolithe dont l'ultime imparable peut renverser n'importe quel combat d'équipe.",
+                "en": "Shard of the Monolith whose unstoppable ultimate can flip any teamfight in an instant."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Malphite.png"
         },
@@ -1378,8 +1378,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle / Support champion",
-                "en": "Jungle / Support champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Maokai.png"
         },
@@ -1407,7 +1407,7 @@
                 "objective": 9
             },
             "description": {
-                "fr": "Hypercarry melee jungler with resets",
+                "fr": "Hypercarry jungler de mêlée avec resets",
                 "en": "Hypercarry melee jungler with resets"
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MasterYi.png"
@@ -1427,8 +1427,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Mel.png"
         },
@@ -1447,8 +1447,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Polyvalent du rôle SUPPORT offrant une grande valeur stratégique.",
+                "en": "Versatile SUPPORT pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Milio.png"
         },
@@ -1468,8 +1468,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Chasseuse de primes dont la pluie de balles peut balayer une équipe entière en quelques secondes.",
+                "en": "Bounty hunter whose leaden rain can sweep an entire team away in seconds."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MissFortune.png"
         },
@@ -1488,8 +1488,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Polyvalent du rôle TOP offrant une grande valeur stratégique.",
+                "en": "Versatile TOP pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Mordekaiser.png"
         },
@@ -1509,8 +1509,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Support / Jungle champion",
-                "en": "Support / Jungle champion"
+                "fr": "Ange déchu experte en entrave et en protection contre les contrôles de foule.",
+                "en": "Fallen angel expert at binding foes and protecting allies from crowd control."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Morgana.png"
         },
@@ -1532,8 +1532,8 @@
             "damage_type": "AP",
             "scaling": "early",
             "description": {
-                "fr": "Versatile support with heal and wave engage",
-                "en": "Versatile support with heal and wave engage"
+                "fr": "Aquamancienne invoquant des vagues et des bulles pour soigner les siens et noyer ses ennemis.",
+                "en": "Tidecaller summoning waves and bubbles to heal her own and drown her enemies."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nami.png"
         },
@@ -1552,8 +1552,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Gardien des sables dont la puissance croît indéfiniment à chaque coup de sa buveuse d'âmes.",
+                "en": "Curator of the Sands whose power grows indefinitely with every siphoning strike."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nasus.png"
         },
@@ -1573,8 +1573,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support / Jungle champion",
-                "en": "Support / Jungle champion"
+                "fr": "Titan des profondeurs capable d'ancrer n'importe qui au sol et de semer le chaos en zone.",
+                "en": "Titan of the Depths capable of anchoring anyone to the spot and sowing chaos."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nautilus.png"
         },
@@ -1594,8 +1594,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nidalee.png"
         },
@@ -1615,8 +1615,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Joie déchaînée glissant sur le champ de bataille pour infliger des dégâts de zone massifs au corps-à-corps.",
+                "en": "Unbound joy sliding through the battlefield to deal massive melee area damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nilah.png"
         },
@@ -1636,8 +1636,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nocturne.png"
         },
@@ -1657,8 +1657,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Support champion",
-                "en": "Mid / Support champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Norra.png"
         },
@@ -1678,8 +1678,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Nunu.png"
         },
@@ -1700,8 +1700,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle / Baron champion",
-                "en": "Jungle / Baron champion"
+                "fr": "Berzerker furieux qui devient plus dangereux à mesure qu'il perd de la vie, ignorant tout contrôle.",
+                "en": "Furious berserker who becomes deadlier as he loses health, ignoring all crowd control."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Olaf.png"
         },
@@ -1723,8 +1723,8 @@
             "damage_type": "AP",
             "scaling": "mid",
             "description": {
-                "fr": "Ball-controlling mage with AoE ultimate",
-                "en": "Ball-controlling mage with AoE ultimate"
+                "fr": "Demoiselle mécanique contrôlant sa sphère avec précision pour offrir utilité et dégâts de zone.",
+                "en": "Mechanical lady controlling her ball with precision to deliver utility and burst damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Orianna.png"
         },
@@ -1743,8 +1743,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Dieu de la forge capable de créer des objets pour ses alliés et d'initier avec son bélier de feu.",
+                "en": "God of the forge capable of upgrading ally items and initiating with his fire ram."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ornn.png"
         },
@@ -1765,8 +1765,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle / Baron champion",
-                "en": "Jungle / Baron champion"
+                "fr": "Guerrier exemplaire dont la lance et le bouclier tombent du ciel pour punir les insolents.",
+                "en": "Exemplary warrior whose spear and shield fall from the heavens to punish the insolent."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Pantheon.png"
         },
@@ -1786,8 +1786,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Polyvalent du rôle TOP offrant une grande valeur stratégique.",
+                "en": "Versatile TOP pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Poppy.png"
         },
@@ -1806,8 +1806,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Éventreur des abysses capable d'assassiner ses cibles et de partager l'or avec son équipe.",
+                "en": "Bloodharbor ripper capable of executing targets and sharing the spoils with his crew."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Pyke.png"
         },
@@ -1826,8 +1826,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Charmeur invétéré, maître de la mobilité et des engagements spectaculaires pour protéger sa belle.",
+                "en": "The Charmer, master of mobility and spectacular engagements to protect his lane partner."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rakan.png"
         },
@@ -1847,8 +1847,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Tatou blindé qui renvoie les dégâts aux attaquants et roule sur ses ennemis à toute allure.",
+                "en": "Armored armadillo reflecting damage back to attackers and rolling over foes with speed."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rammus.png"
         },
@@ -1867,8 +1867,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Vierge de fer capable de manipuler le métal pour attirer et écraser ses adversaires.",
+                "en": "Iron maiden capable of manipulating metal to pull in and crush her adversaries."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rell.png"
         },
@@ -1887,8 +1887,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Prédateur des sables dominant son adversaire avec ses dashs et sa fureur dévastatrice.",
+                "en": "Sand predator dominating opponents with relentless dashes and devastating fury."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Renekton.png"
         },
@@ -1917,8 +1917,8 @@
                 "objective": 6
             },
             "description": {
-                "fr": "Stealth assassin with burst from brush",
-                "en": "Stealth assassin with burst from brush"
+                "fr": "Fier traqueur capable de bondir des hautes herbes pour one-shot ses proies sans avertissement.",
+                "en": "Proud stalker capable of leaping from brush to one-shot prey without warning."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rengar.png"
         },
@@ -1937,8 +1937,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Exilée agile capable d'enchaîner les combos d'épée pour briser ses ennemis avec style.",
+                "en": "Agile exile capable of chaining sword combos to shatter her enemies with style."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Riven.png"
         },
@@ -1958,8 +1958,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Mid / Baron champion",
-                "en": "Mid / Baron champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Rumble.png"
         },
@@ -1978,8 +1978,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ryze.png"
         },
@@ -1999,8 +1999,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Rose du désert cherchant le style pour déclencher sa tornade de balles et de lames.",
+                "en": "Desert rose chasing style points to unleash her devastating tornado of bullets and blades."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Samira.png"
         },
@@ -2020,8 +2020,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Support / ADC champion",
-                "en": "Support / ADC champion"
+                "fr": "Rédemptrice dont la puissance augmente à chaque âme récoltée, mêlant soin et dégâts spectaculaires.",
+                "en": "Redeemer whose power grows with every soul harvested, blending healing and spectral damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Senna.png"
         },
@@ -2041,8 +2041,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Support / Mid champion",
-                "en": "Support / Mid champion"
+                "fr": "Idole étoilée unissant son équipe par le chant et le rythme pour des combos de zone massifs.",
+                "en": "Starry-eyed idol uniting her team through song and rhythm for massive area-of-effect combos."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Seraphine.png"
         },
@@ -2061,8 +2061,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Patron des arènes capable de projeter les tanks sur leur propre équipe et de punir les attaques.",
+                "en": "The Boss of the arena, capable of slamming tanks into their own team and punishing all damage."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sett.png"
         },
@@ -2082,8 +2082,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Support champion",
-                "en": "Baron / Support champion"
+                "fr": "Oeil du crépuscule offrant une protection mondiale infaillible pour sauver ses alliés en détresse.",
+                "en": "Eye of Twilight providing global protection to save allies in distress anywhere on the map."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Shen.png"
         },
@@ -2103,8 +2103,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Demi-dragonne accumulant de la puissance pour se transformer et ravager le champ de bataille.",
+                "en": "Half-dragon accumulating power to transform and ravage the battlefield with fire."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Shyvana.png"
         },
@@ -2123,8 +2123,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Chimiste fou dont la traînée de poison sème le chaos et force l'ennemi à une poursuite mortelle.",
+                "en": "Mad chemist whose poison trail sows chaos and lures enemies into a deadly chase."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Singed.png"
         },
@@ -2143,8 +2143,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Colosse mort-vivant inarrêtant dans sa charge, semant la terreur même après sa mort.",
+                "en": "Undead juggernaut unstoppable in his charge, sowing terror even after death."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sion.png"
         },
@@ -2164,8 +2164,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Vierges des batailles experte en nettoyage de vagues et en accélération de groupe.",
+                "en": "Battle Mistress expert at waveclearing and providing significant team-wide speed buffs."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sivir.png"
         },
@@ -2185,8 +2185,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Jeune dragon dont les flammes évoluent au fil du temps pour brûler tout ce qui reste.",
+                "en": "Fledgling dragon whose flames evolve over time to incinerate all that remains."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Smolder.png"
         },
@@ -2208,8 +2208,8 @@
             "damage_type": "AP",
             "scaling": "late",
             "description": {
-                "fr": "Aura support with sustain and poke",
-                "en": "Aura support with sustain and poke"
+                "fr": "Virtuose de la harpe offrant des auras permanentes pour soigner, protéger et accélérer son équipe.",
+                "en": "Virtuoso of the string, providing constant auras to heal, protect, and speed up her team."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Sona.png"
         },
@@ -2231,8 +2231,8 @@
             "damage_type": "AP",
             "scaling": "late",
             "description": {
-                "fr": "Healing support with global ultimate",
-                "en": "Healing support with global ultimate"
+                "fr": "Enfant des étoiles capable de soigner ses alliés au détriment de sa propre vie.",
+                "en": "Starchild capable of healing her allies iteratively at the cost of her own lifeforce."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Soraka.png"
         },
@@ -2252,8 +2252,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Support champion",
-                "en": "Mid / Support champion"
+                "fr": "Grand général de Noxus drainant la vie de ses ennemis pour devenir un démon immortel en combat.",
+                "en": "Grand General of Noxus draining enemy life to become an immortal demon in the fray."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Swain.png"
         },
@@ -2272,8 +2272,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Souveraine obscure capable de manipuler ses sphères pour pulvériser ses cibles à distance.",
+                "en": "Dark Sovereign capable of manipulating spheres to pulverize targets from a distance."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Syndra.png"
         },
@@ -2294,8 +2294,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle / Mid champion",
-                "en": "Jungle / Mid champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Talon.png"
         },
@@ -2316,8 +2316,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Baron / Mid champion",
-                "en": "Baron / Mid champion"
+                "fr": "Éclaireur de Bandle dont les champignons invisibles et le poison rendent la vie impossible aux ennemis.",
+                "en": "Swift Scout whose invisible mushrooms and poison make life miserable for the enemy team."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Teemo.png"
         },
@@ -2339,8 +2339,8 @@
             "damage_type": "mixed",
             "scaling": "early",
             "description": {
-                "fr": "High-skill playmaker support with hook and lantern",
-                "en": "High-skill playmaker support with hook and lantern"
+                "fr": "Garde aux chaînes virtuose du contrôle, offrant des lanternes de sauvetage et des grappins mortels.",
+                "en": "Chain Warden extraordinaire, offering life-saving lanterns and death-dealing hooks."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Thresh.png"
         },
@@ -2360,8 +2360,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Yordle explosive capable de sauter sur ses proies et de poser des bombes dévastatrices sur les tours.",
+                "en": "Explosive yordle capable of rocket jumping onto prey and planting devastating tower bombs."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Tristana.png"
         },
@@ -2381,8 +2381,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron / Jungle champion",
-                "en": "Baron / Jungle champion"
+                "fr": "Roi barbare dont la fureur lui permet de défier la mort elle-même pendant quelques secondes.",
+                "en": "Barbarian king whose rage allows him to defy death itself for several crucial seconds."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Tryndamere.png"
         },
@@ -2401,8 +2401,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/TwistedFate.png"
         },
@@ -2423,8 +2423,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC / Jungle champion",
-                "en": "ADC / Jungle champion"
+                "fr": "Semeur de peste furtif capable de cribler une équipe entière de carreaux empoisonnés.",
+                "en": "Plague-bearing rat hunting from stealth and shredding entire teams with poisoned bolts."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Twitch.png"
         },
@@ -2443,8 +2443,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Baron champion",
-                "en": "Baron champion"
+                "fr": "Horreur mécanique capable de broyer les tanks et d'exécuter les faibles avec son broyeur.",
+                "en": "Mechanical monstrosity capable of grinding through tanks and executing the weak."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Urgot.png"
         },
@@ -2464,8 +2464,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Archer de la vengeance capable de sniper ses proies et d'immobiliser toute une équipe.",
+                "en": "Archer of retribution capable of sniping prey and locking down an entire team."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Varus.png"
         },
@@ -2488,8 +2488,8 @@
             "damage_type": "AD",
             "scaling": "late",
             "description": {
-                "fr": "Tank-shredding hypercarry with true damage",
-                "en": "Tank-shredding hypercarry with true damage"
+                "fr": "Chasseuse nocturne experte en duel, capable de devenir invisible pour massacrer les tanks.",
+                "en": "Night hunter and premier duelist, capable of tumbling into stealth to shred tanks."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vayne.png"
         },
@@ -2508,8 +2508,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Seigneur des maléfices dont la puissance magique augmente à l'infini avec chaque sort touché.",
+                "en": "Tiny master of evil whose magic power stacks infinitely with every spell landed."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Veigar.png"
         },
@@ -2529,8 +2529,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid / Support champion",
-                "en": "Mid / Support champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Velkoz.png"
         },
@@ -2549,8 +2549,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vex.png"
         },
@@ -2570,8 +2570,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Cogneuse de Piltover défonçant les armures et isolant les cibles avec ses poings massifs.",
+                "en": "Piltover enforcer shredding through armor and locking down targets with massive gauntlets."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vi.png"
         },
@@ -2591,8 +2591,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Roi déchu capable de posséder le corps de ses victimes pour retourner leurs pouvoirs contre eux.",
+                "en": "Ruined King capable of possessing his victims and turning their own powers against them."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Viego.png"
         },
@@ -2611,8 +2611,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Polyvalent du rôle MID offrant une grande valeur stratégique.",
+                "en": "Versatile MID pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Viktor.png"
         },
@@ -2632,8 +2632,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid / Baron champion",
-                "en": "Mid / Baron champion"
+                "fr": "Saigneur écarlate capable de devenir intouchable et de drainer la vie de groupes entiers.",
+                "en": "Crimson reaper capable of becoming untargetable and pool-diving to drain entire teams."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Vladimir.png"
         },
@@ -2654,8 +2654,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle / Baron champion",
-                "en": "Jungle / Baron champion"
+                "fr": "Tempête implacable capable de désactiver les tours et d'écraser ses ennemis sous ses griffes.",
+                "en": "Relentless storm capable of disabling towers and crushing foes under thunderous claws."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Volibear.png"
         },
@@ -2675,8 +2675,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Fureur déchaînée de Zaun traquant le sang et capable de se soigner massivement au combat.",
+                "en": "Uncaged wrath of Zaun hunting blood and sustaining through the fiercest battles."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Warwick.png"
         },
@@ -2696,8 +2696,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/MonkeyKing.png"
         },
@@ -2717,8 +2717,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Polyvalent du rôle ADC offrant une grande valeur stratégique.",
+                "en": "Versatile ADC pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Xayah.png"
         },
@@ -2738,8 +2738,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Jungle champion",
-                "en": "Jungle champion"
+                "fr": "Polyvalent du rôle JUNGLE offrant une grande valeur stratégique.",
+                "en": "Versatile JUNGLE pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/XinZhao.png"
         },
@@ -2768,8 +2768,8 @@
                 "W"
             ],
             "description": {
-                "fr": "Mobile melee carry with windwall and knockup combos",
-                "en": "Mobile melee carry with windwall and knockup combos"
+                "fr": "Disgracié dont la lame et le vent déchaînent des tempêtes, profitant de chaque projection en l'air.",
+                "en": "The Unforgiven, whose blade and wind unleash storms, capitalizing on every knock-up."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yasuo.png"
         },
@@ -2788,8 +2788,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Chasseur d'Azakana capable de projeter son esprit pour trancher ses ennemis avant de revenir à son corps.",
+                "en": "Hunter of Azakana capable of projecting his spirit to slice through foes and return safely."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yone.png"
         },
@@ -2808,8 +2808,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Support champion",
-                "en": "Support champion"
+                "fr": "Chatte magique s'attachant à ses alliés pour les soigner et les renforcer en toute sécurité.",
+                "en": "Magical cat attaching to allies to provide safe healing and significant buffs."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Yuumi.png"
         },
@@ -2832,8 +2832,8 @@
             "damage_type": "AD",
             "scaling": "early",
             "description": {
-                "fr": "Shadow assassin with high outplay potential",
-                "en": "Shadow assassin with high outplay potential"
+                "fr": "Maître des ombres capable d'apparaître derrière ses cibles pour les marquer d'un sceau mortel.",
+                "en": "Master of Shadows capable of appearing behind targets and marking them for certain death."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zed.png"
         },
@@ -2853,8 +2853,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "ADC champion",
-                "en": "ADC champion"
+                "fr": "Étincelle de Zaun dont la vitesse électrique et les tirs en rafale la rendent insaisissable.",
+                "en": "The Spark of Zaun whose electric speed and rapid-fire bursts make her impossible to catch."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zeri.png"
         },
@@ -2873,8 +2873,8 @@
             "damage_type": "Adaptive",
             "scaling": "mid",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Expert en Hexplosifs capable de raser les structures et de pilonner les zones à longue distance.",
+                "en": "Hexplosives expert capable of shredding structures and barraging areas from long range."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Ziggs.png"
         },
@@ -2894,8 +2894,8 @@
             "damage_type": "Adaptive",
             "scaling": "late",
             "description": {
-                "fr": "Support / Mid champion",
-                "en": "Support / Mid champion"
+                "fr": "Polyvalent du rôle SUPPORT offrant une grande valeur stratégique.",
+                "en": "Versatile SUPPORT pick providing significant strategic value."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zilean.png"
         },
@@ -2914,8 +2914,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Mid champion",
-                "en": "Mid champion"
+                "fr": "Aspect de l'espièglerie capable de voler les sorts adverses et d'endormir ses cibles à distance.",
+                "en": "Aspect of Twilight capable of stealing enemy spells and sniping drowsy targets."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zoe.png"
         },
@@ -2935,8 +2935,8 @@
             "damage_type": "Adaptive",
             "scaling": "early",
             "description": {
-                "fr": "Support / Mid champion",
-                "en": "Support / Mid champion"
+                "fr": "Dame aux ronces dont les plantes et les racines étouffent l'ennemi sous un déferlement de nature.",
+                "en": "Rise of the Thorns, whose plants and roots choke the enemy under nature's wrath."
             },
             "image_url": "https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/Zyra.png"
         }

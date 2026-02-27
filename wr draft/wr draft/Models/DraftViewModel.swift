@@ -61,7 +61,8 @@ class DraftViewModel: ObservableObject {
             team: apiTeam,
             enemyTeam: apiEnemy,
             banned: bannedChampions,
-            topN: 50
+            topN: 50,
+            lang: language
         )
         
         // Apply search filter
@@ -84,7 +85,8 @@ class DraftViewModel: ObservableObject {
             team: [],
             enemyTeam: [target.id],
             banned: [],
-            topN: 50
+            topN: 50,
+            lang: language
         )
     }
     

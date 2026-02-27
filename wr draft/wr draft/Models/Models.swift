@@ -22,24 +22,49 @@ struct Champion: Codable, Identifiable {
 }
 
 struct Synergy: Codable {
-    let name: String
+    let nameFr: String
+    let nameEn: String
     let tags: [String]
-    let score: Double
-    let explanation: LocalizedText
-}
-
-struct Counter: Codable {
-    let name: String
-    let attackerTags: [String]
-    let defenderTags: [String]
     let score: Double
     let explanation: LocalizedText
     
     enum CodingKeys: String, CodingKey {
-        case name, score, explanation
+        case nameFr = "name_fr"
+        case nameEn = "name_en"
+        case tags, score, explanation
+    }
+    
+    func getName(_ lang: String) -> String {
+        return lang.uppercased() == "EN" ? nameEn : nameFr
+    }
+}
+
+struct Counter: Codable {
+    let nameFr: String
+    let nameEn: String
+    let attackerTags: [String]
+    let defenderTags: [String]
+    let score: Double
+    let explanation: LocalizedText
+    let strongAgainst: CounterStrongAgainst?
+    
+    enum CodingKeys: String, CodingKey {
+        case nameFr = "name_fr"
+        case nameEn = "name_en"
+        case score, explanation
         case attackerTags = "attacker_tags"
         case defenderTags = "defender_tags"
+        case strongAgainst = "strong_against"
     }
+    
+    func getName(_ lang: String) -> String {
+        return lang.uppercased() == "EN" ? nameEn : nameFr
+    }
+}
+
+struct CounterStrongAgainst: Codable {
+    let champions: [String]
+    let explanation: LocalizedText
 }
 
 struct ChampionMatchup: Codable {
